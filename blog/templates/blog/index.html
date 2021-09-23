@@ -59,13 +59,13 @@
       <p>Pictures from my adventures</p>
     </header>
     <div class="row">
-      {% for post in posts %}
+      {% for dst in destinations %}
       <div class="col-lg-3 col-md-6 px-md-1 py-1">
         <a class="instagram-item d-block w-100 reset-anchor text-white"
-          href="{% url 'single-post' post.slug %}">
-          <img class="img-fluid" src="{{ post.imageUrl }}" alt="{{ post.title }}">
+          href="{% url 'single-dst' dst.slug %}">
+          <img class="img-fluid" src="{{ dst.imageUrl }}" alt="{{ dst.title }}">
           <div class="instagram-item-overlay p-5">
-            <h6>{{ post.title }}</h6>
+            <h6>{{ dst.title }}</h6>
           </div>
         </a>
       </div>

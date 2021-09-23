@@ -1,11 +1,10 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}{{ post.title }}{% endblock title %}
+{% block title %}{{ single_dst.title }}{% endblock title %}
 {% block content %}
 <section class="py-5">
   <div class="container text-center">
-    <p class="h6 mb-0 text-uppercase text-primary">{{ post.category }}</p>
-    <h1>{{ post.title }}</h1>
+    <h1>{{ single_dst.title }}</h1>
     <ul class="list-inline small text-uppercase mb-0">
       <li class="list-inline-item align-middle"><img class="rounded-circle shadow-sm" src="{% static 'img/person-1.jpg' %}" alt=""
           width="40" /></li>
@@ -13,23 +12,23 @@
       <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Jason Doe</a>
       </li>
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
-      <li class="list-inline-item text-muted align-middle mr-0">{{ post.created_at }}</li>
+      <li class="list-inline-item text-muted align-middle mr-0">{{ single_dst.date_created }}</li>
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
       <li class="list-inline-item text-muted align-middle">20 Comments</li>
     </ul>
-  </div><img class="w-100 py-5 hero-img" src="{{ post.imageUrl }}" alt="{{ post.title }}">
+  </div><img class="w-100 py-5 hero-img" src="{{ single_dst.imageUrl }}" alt="{{ single_dst.title }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-        <p class="lead first-letter-styled line-height-lg">{{ post.content }}</p>
+        <p class="lead first-letter-styled line-height-lg">{{ single_dst.content }}</p>
         <div class="p-4 bg-light mb-5">
           <ul class="list-inline mb-0 text-muted tags">
-            <span class="mr-2">Tags: </span>
-            {% for tag in tags %}
+            <span class="mr-2">Categories: </span>
+            {% for category in categories %}
             <li class="list-inline-item mr-2 pr-lg-2">
               <a class="tag reset-anchor" href="#">
                 <i class="fas fa-bookmark text-primary"></i>
-                {{ tag }}
+                {{ category }}
               </a>
             </li>
             {% endfor %}
