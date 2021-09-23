@@ -1,1 +1,19 @@
-/* your styles go here */
+.cat-card {
+  width: 50px;
+  border: 1px solid #ebaa3d;
+  border-radius: 10px;
+}
+
+.cat-card:hover {
+  background-color: #ebaa3d;
+  color: #fff !important;
+}
+
+.hero-img {
+  height: 100vh !important;
+}
+
+.tags {
+  font-style: italic !important;
+  font-size: 0.8rem;
+}

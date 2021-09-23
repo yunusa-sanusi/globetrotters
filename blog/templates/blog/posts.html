@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Posts{% endblock title %}
+{% block content %}
+<!-- Hero section -->
+<section class="hero bg-center bg-cover" style="background: url('{{posts.2.imageUrl}}')">
+  <div class="dark-overlay py-5">
+    <div class="overlay-content">
+      <div class="container py-5 text-white text-center">
+        <h1>Blog Posts</h1>
+        <p>Read Through our Posts for Some Travel Guide</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Blog listing -->
+<section class="pt-5">
+  <div class="container pt-5">
+    <div class="row mb-5">
+      <div class="col-lg-8">
+        <div class="row text-center">
+          {% for post in posts %}
+          <div class="col-lg-6 mb-5">
+            <a href="{% url 'single-post' post.slug %}">
+              <img class="img-fluid mb-4" src="{{ post.imageUrl }}"
+                alt="" />
+            </a>
+            <ul class="list-inline small text-uppercase mb-0">
+              <li class="list-inline-item mr-0 text-gray align-middle">By </li>
+              <li class="list-inline-item align-middle mr-0">
+                <a class="font-weight-bold reset-anchor" href="#">Jimmy
+                  Roy
+                </a>
+              </li>
+              <li class="list-inline-item text-gray align-middle mr-0">|</li>
+              <li class="list-inline-item text-gray align-middle">{{ post.created_at }}</li>
+            </ul>
+            <h3 class="h4 mt-2">
+              <a class="reset-anchor" href="{% url 'single-post' post.slug %}">{{ post.title }}</a>
+            </h3>
+            <a class="reset-anchor text-gray text-uppercase small mb-2 d-block" href="#">Travel guide</a>
+            <p class="text-small mb-1">{{ post.description}}</p>
+            <a class="btn btn-link" href="{% url 'single-post' post.slug %}">Continue reading</a>
+          </div>
+          {% endfor %}
+        </div>
+        <!-- Listing navigation -->
+        <div class="p-4 bg-light mb-5">
+          <div class="row">
+            <div class="col-sm-6 text-center text-sm-left mb-2 mb-sm-0"><a class="btn btn-outline-secondary btn-sm"
+                href="#"><i class="fas fa-angle-left mr-2"></i>Prev posts</a></div>
+            <div class="col-sm-6 text-center text-sm-right text-right"><a class="btn btn-outline-secondary btn-sm"
+                href="#">Next posts<i class="fas fa-angle-right ml-2"></i></a></div>
+          </div>
+        </div>
+      </div>
+      <!-- Sidebar -->
+      <!-- Sidebar -->
+      {% include '../includes/sidebar.html' with latest_posts=latest_posts %}
+    </div>
+  </div>
+</section>
+
+{% endblock content %}

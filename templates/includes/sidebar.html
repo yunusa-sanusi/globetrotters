@@ -1,0 +1,53 @@
+{% load static %}
+<div class="col-lg-4">
+  <!-- About me widget -->
+  <div class="mb-5 text-center"><img class="mb-3 rounded-circle img-thumbnail shadow-sm"
+      src="{% static 'img/author.jpg' %}" alt="" width="110">
+    <h3 class="h4">About me</h3>
+    <p class="text-small text-muted px-sm-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+      eiusmod.</p><img class="d-block mx-auto mb-3" src="{% static 'img/signature.png' %}" alt="" width="60">
+    <ul class="list-inline text-small mb-0">
+      <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-facebook-f"></i></a></li>
+      <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-twitter"></i></a></li>
+      <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-instagram"></i></a></li>
+      <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-linkedin"></i></a></li>
+      <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-youtube"></i></a></li>
+      <li class="list-inline-item"><a class="reset-anchor" href="#"><i class="fab fa-vimeo-v"></i></a></li>
+    </ul>
+  </div>
+  <hr>
+  <!-- Newsletter widget -->
+  <div class="px-4 py-5 bg-light mb-5 text-center">
+    <h3 class="h5"><i class="far fa-envelope mr-2"></i>Join the family</h3>
+    <p class="text-small text-muted">Subscribe to our newletter so you don't miss any update</p>
+    <form action="#">
+      <div class="form-group mb-1">
+        <input class="form-control form-control-sm" type="email" name="email" placeholder="Emaill address">
+      </div>
+      <div class="form-group mb-0">
+        <button class="btn btn-dark btn-block btn-sm" type="submit">Subscribe</button>
+      </div>
+    </form>
+  </div>
+  <!-- Latest posts widget -->
+  <div class="mb-5">
+    <h3 class="h5">Latest posts</h3>
+    <ul class="list-unstyled">
+      {% for post in latest_posts %}
+      <hr>
+      <li class="media mb-3">
+        <a href="{% url 'single-post' post.slug %}">
+          <img src="{{ post.imageUrl }}" alt="" width="80">
+        </a>
+        <div class="media-body ml-3">
+          <p class="small text-primary text-uppercase mb-0">{{ post.created_at }}</p>
+          <h6 class="mb-1">
+            <a class="reset-anchor" href="post.html">{{ post.title }}</a>
+          </h6>
+          <a href="{% url 'single-post' post.slug %}">View Post</a>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

@@ -1,0 +1,118 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Post{% endblock title %}
+{% block content %}
+<section class="py-5">
+  <div class="container text-center">
+    <p class="h6 mb-0 text-uppercase text-primary">{{ post.category }}</p>
+    <h1>{{ post.title }}</h1>
+    <ul class="list-inline small text-uppercase mb-0">
+      <li class="list-inline-item align-middle"><img class="rounded-circle shadow-sm" src="{% static 'img/person-1.jpg' %}" alt=""
+          width="40" /></li>
+      <li class="list-inline-item mr-0 text-muted align-middle">By </li>
+      <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Jason Doe</a>
+      </li>
+      <li class="list-inline-item text-muted align-middle mr-0">|</li>
+      <li class="list-inline-item text-muted align-middle mr-0">{{ post.created_at }}</li>
+      <li class="list-inline-item text-muted align-middle mr-0">|</li>
+      <li class="list-inline-item text-muted align-middle">20 Comments</li>
+    </ul>
+  </div><img class="w-100 py-5 hero-img" src="{{ post.imageUrl }}" alt="{{ post.title }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mb-5 mb-lg-0">
+        <p class="lead first-letter-styled line-height-lg">{{ post.content }}</p>
+        <div class="p-4 bg-light mb-5">
+          <ul class="list-inline mb-0 text-muted tags">
+            <span class="">Tags: </span>
+            {% for tag in tags %}
+            <li class="list-inline-item mr-2 pr-lg-2">
+              <a class="tag reset-anchor" href="#">
+                <i class="fas fa-bookmark text-primary mr-2"></i>
+                {{ tag }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+        <h3 class="h4 mb-4">Share this post</h3>
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item mr-1 mb-3"><a class="social-link-share facebook" href="#"><i
+                class="fab fa-facebook-f mr-2"></i>Share</a></li>
+          <li class="list-inline-item mr-1 mb-3"><a class="social-link-share twitter" href="#"><i
+                class="fab fa-twitter mr-2"></i>Tweet</a></li>
+          <li class="list-inline-item mr-1 mb-3"><a class="social-link-share instagram" href="#"><i
+                class="fab fa-instagram mr-2"></i>Share</a></li>
+        </ul>
+        <h3 class="h4 mb-4">Leave a comment</h3>
+        <form class="mb-5" action="#">
+          <div class="row">
+            <div class="form-group col-lg-6">
+              <input class="form-control" type="text" name="name" placeholder="Full Name e.g. Jason Doe">
+            </div>
+            <div class="form-group col-lg-6">
+              <input class="form-control" type="email" name="email" placeholder="Email Address e.g. Jason@email.com">
+            </div>
+            <div class="form-group col-lg-12">
+              <textarea class="form-control" name="message" rows="5" placeholder="Leave your message"></textarea>
+            </div>
+            <div class="form-group col-lg-12">
+              <button class="btn btn-dark" type="submit">Submit your comment</button>
+            </div>
+          </div>
+        </form>
+        <h3 class="h4 mb-4 d-flex align-items-center"><span>Comments</span><span class="text-small ml-3 text-gray">- 3
+            Comments</span></h3>
+        <ul class="list-unstyled comments">
+          <li>
+            <div class="d-flex mb-4">
+              <div class="pr-2 flex-grow-1" style="width: 75px; min-width: 75px;"><img
+                class="rounded-circle shadow-sm img-fluid img-thumbnail" src="{% static 'img/person-1.jpg' %}" alt=""></div>
+              <div class="pl-2">
+                <p class="small mb-0 text-primary">15 Aug 2019</p>
+                <h5>Jimmy Roy</h5>
+                <p class="text-muted text-small mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At.</p><a
+                  class="reset-anchor text-small" href="#"><i
+                    class="fas fa-share mr-2 text-primary"></i><strong>Reply</strong></a>
+              </div>
+            </div>
+            <ul class="list-unstyled">
+              <li>
+                <div class="d-flex mb-4">
+                  <div class="pr-2 flex-grow-1" style="width: 75px; min-width: 75px;"><img
+                      class="rounded-circle shadow-sm img-fluid img-thumbnail" src="{% static 'img/person-2.jpg' %}" alt=""></div>
+                  <div class="pl-2">
+                    <p class="small mb-0 text-primary">19 Sep 2019</p>
+                    <h5>Melissa Johanson</h5>
+                    <p class="text-muted text-small mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                      diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At.
+                    </p><a class="reset-anchor text-small" href="#"><i
+                        class="fas fa-share mr-2 text-primary"></i><strong>Reply</strong></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <div class="d-flex mb-4">
+              <div class="pr-2 flex-grow-1" style="width: 75px; min-width: 75px;"><img
+                  class="rounded-circle shadow-sm img-fluid img-thumbnail" src="{% static 'img/person-3.jpg' %}" alt=""></div>
+              <div class="pl-2">
+                <p class="small mb-0 text-primary">10 Oct 2019</p>
+                <h5>David Nguyen</h5>
+                <p class="text-muted text-small mb-2">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+                  nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At.</p><a
+                  class="reset-anchor text-small" href="#"><i
+                    class="fas fa-share mr-2 text-primary"></i><strong>Reply</strong></a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <!-- Sidebar -->
+      {% include '../includes/sidebar.html' with latest_posts=latest_posts %}
+    </div>
+  </div>
+</section>
+{% endblock content %}
