@@ -17,7 +17,12 @@
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
       <li class="list-inline-item text-muted align-middle">20 Comments</li>
     </ul>
-  </div><img class="w-100 py-5 hero-img" src="{{ post.imageUrl }}" alt="{{ post.title }}">
+    <div class="text-center">
+      <a href="{% url 'update-post' post.slug %}" class="btn btn-secondary edit py-2 px-4 mr-3">Edit</a>
+      <a href="{% url 'delete-post' post.slug %}" class="btn btn-danger delete py-2 px-4">Delete</a>
+    </div>
+  </div>
+  <img class="w-100 py-5 hero-img" src="{{ post.imageUrl }}" alt="{{ post.title }}">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">

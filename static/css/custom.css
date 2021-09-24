@@ -17,3 +17,17 @@
   font-style: italic !important;
   font-size: 0.8rem;
 }
+
+.btn-submit {
+  border-radius: 5px !important;
+}
+
+.form-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.edit,
+.delete {
+  border-radius: 5px;
+}

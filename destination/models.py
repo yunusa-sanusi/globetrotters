@@ -14,7 +14,7 @@ class Destination(models.Model):
     date_created = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f'{self.country}'
+        return f'{self.city}, {self.country}'
 
     @property
     def imageUrl(self):
