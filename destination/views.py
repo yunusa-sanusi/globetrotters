@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from destination.forms import DestinationForm
-from destination.models import Destination, Category, Country
+from destination.forms import DestinationForm, CommentForm
+from destination.models import Destination, Comment
 from blog.models import Post
 
 
@@ -19,11 +19,25 @@ def single_destination(request, slug):
     single_destination = Destination.objects.get(slug=slug)
     latest_posts = Post.objects.all()[:3]
     categories = single_destination.categories.all()
+    comments = Comment.objects.filter(destination=single_destination)
+    comment_form = CommentForm()
+
+    if request.method == 'POST':
+        comment_form = CommentForm(request.POST)
+        if comment_form.is_valid():
+            name = comment_form.data['name']
+            email = comment_form.data['email']
+            content = comment_form.data['content']
+            Comment.objects.create(
+                name=name, email=email, content=content, destination=single_destination)
+            return redirect('single-dst', single_destination.slug)
 
     context = {
         'single_dst': single_destination,
         'latest_posts': latest_posts,
-        'categories': categories
+        'categories': categories,
+        'comments': comments,
+        'form': comment_form,
     }
     return render(request, 'destination/single-destination.html', context)
 

@@ -26,6 +26,17 @@ class Destination(models.Model):
         return img
 
 
+class Comment(models.Model):
+    name = models.CharField(max_length=50)
+    email = models.EmailField()
+    content = models.TextField()
+    destination = models.ForeignKey(Destination, on_delete=models.CASCADE)
+    date_added = models.DateTimeField(auto_now=True)
+
+    def __str__(self):
+        return f'{self.email} on {self.post}'
+
+
 class Country(models.Model):
     name = models.CharField(max_length=30)
     slug = models.SlugField(unique=True)

@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect
-from .models import Post
-from .forms import PostForm
+from .models import Post, Comment
+from .forms import PostForm, CommentForm
 from destination.models import Destination, Category
 
 
@@ -11,6 +11,7 @@ def index(request):
     categories = []
 
     for category in Category.objects.all():
+        # Getting the destinations for each category
         categories.append(
             {'category': category.name, 'count': Destination.objects.filter(categories=category).count()})
 
@@ -38,10 +39,25 @@ def post(request, slug):
     post = Post.objects.get(slug=slug)
     latest_posts = Post.objects.all()[:3]
     tags = post.tags.all()
+    comments = Comment.objects.filter(post=post)
+    comment_form = CommentForm()
+
+    if request.method == 'POST':
+        comment_form = CommentForm(request.POST)
+        if comment_form.is_valid():
+            name = comment_form.data['name']
+            email = comment_form.data['email']
+            content = comment_form.data['content']
+            Comment.objects.create(
+                name=name, email=email, content=content, post=post)
+            return redirect('single-post', post.slug)
+
     context = {
         'post': post,
         'tags': tags,
-        'latest_posts': latest_posts
+        'latest_posts': latest_posts,
+        'comments': comments,
+        'form': comment_form,
     }
     return render(request, 'blog/single-post.html', context)
 

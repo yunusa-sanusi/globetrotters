@@ -1,7 +1,5 @@
 from django import forms
-from django import forms
-from django import forms
-from .models import Destination, Category, Country
+from .models import Destination, Category, Country, Comment
 
 
 class DestinationForm(forms.ModelForm):
@@ -27,3 +25,18 @@ class DestinationForm(forms.ModelForm):
 
     slug = forms.SlugField(label='', widget=(forms.TextInput(
         attrs={'class': 'form-control slug', 'placeholder': 'Slug'})))
+
+
+class CommentForm(forms.ModelForm):
+    class Meta:
+        model = Comment
+        fields = ('name', 'email', 'content')
+
+    name = forms.CharField(label='', widget=forms.TextInput(
+        attrs={'class': 'form-control', 'placeholder': 'Full Name e.g. Jason Doe'}))
+
+    email = forms.EmailField(label='', widget=forms.EmailInput(
+        attrs={'class': 'form-control', 'placeholder': 'Email Address e.g. Jason@email.com'}))
+
+    content = forms.CharField(label='', widget=forms.Textarea(
+        attrs={'class': 'form-control', 'placeholder': 'Leave your message'}))
