@@ -19,7 +19,7 @@
     <div class="row mb-5">
       <div class="col-lg-8">
         <div class="row text-center">
-          {% for post in posts %}
+          {% for post in page_obj %}
           <div class="col-lg-6 mb-5">
             <a href="{% url 'single-post' post.slug %}">
               <img class="img-fluid mb-4" src="{{ post.imageUrl }}"
@@ -47,10 +47,22 @@
         <!-- Listing navigation -->
         <div class="p-4 bg-light mb-5">
           <div class="row">
-            <div class="col-sm-6 text-center text-sm-left mb-2 mb-sm-0"><a class="btn btn-outline-secondary btn-sm"
-                href="#"><i class="fas fa-angle-left mr-2"></i>Prev posts</a></div>
-            <div class="col-sm-6 text-center text-sm-right text-right"><a class="btn btn-outline-secondary btn-sm"
-                href="#">Next posts<i class="fas fa-angle-right ml-2"></i></a></div>
+            <div class="col-sm-6 text-center text-sm-left mb-2 mb-sm-0">
+              {% if page_obj.has_previous %}
+              <a class="btn btn-outline-secondary btn-sm" href="?page={{ page_obj.previous_page_number }}">
+                <i class="fas fa-angle-left mr-2"></i>
+                Prev posts
+              </a>
+              {% endif %}
+            </div>
+            <div class="col-sm-6 text-center text-sm-right text-right">
+              {% if page_obj.has_next %}
+              <a class="btn btn-outline-secondary btn-sm" href="?page={{ page_obj.next_page_number }}">
+                Next posts
+                <i class="fas fa-angle-right ml-2"></i>
+              </a>
+              {% endif %}
+            </div>
           </div>
         </div>
       </div>

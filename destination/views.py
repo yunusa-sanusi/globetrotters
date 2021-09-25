@@ -1,3 +1,5 @@
+from django.core import paginator
+from django.core.paginator import Paginator
 from django.shortcuts import render, redirect
 from destination.forms import DestinationForm, CommentForm
 from destination.models import Destination, Comment
@@ -6,11 +8,15 @@ from blog.models import Post
 
 def destinations(request):
     destinations = Destination.objects.all()
+    paginator = Paginator(destinations, 4)
     latest_posts = Post.objects.all()[:3]
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
 
     context = {
         'destinations': destinations,
-        'latest_posts': latest_posts
+        'latest_posts': latest_posts,
+        'page_obj': page_obj,
     }
     return render(request, 'destination/destinations.html', context)
 

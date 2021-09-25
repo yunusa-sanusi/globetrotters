@@ -1,3 +1,4 @@
+from django.core.paginator import Paginator
 from django.shortcuts import render, redirect
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
@@ -26,11 +27,15 @@ def index(request):
 
 def posts(request):
     posts = Post.objects.all()
+    paginator = Paginator(posts, 4)
     latest_posts = Post.objects.all()[:3]
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
 
     context = {
         'posts': posts,
-        'latest_posts': latest_posts
+        'latest_posts': latest_posts,
+        'page_obj': page_obj,
     }
     return render(request, 'blog/posts.html', context)
 
