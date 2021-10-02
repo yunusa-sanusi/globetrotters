@@ -16,9 +16,15 @@
 <!-- Blog listing -->
 <section class="pt-5">
   <div class="container pt-5">
+    {% if messages %}
+    {% for message in messages %}
+    <p class="alert alert-{{ message.tags }}">{{ message }}</p>
+    {% endfor %}
+    {% endif %}
     <div class="row mb-5">
       <div class="col-lg-8">
         <div class="row text-center">
+          {% if page_obj %}
           {% for dst in page_obj %}
           <div class="col-lg-6 mb-5">
             <a href="{% url 'single-dst' dst.slug %}">
@@ -43,6 +49,10 @@
             <a class="btn btn-link" href="{% url 'single-dst' dst.slug %}">Continue reading</a>
           </div>
           {% endfor %}
+          {% else %}
+          <p>Couldn't get any destination</p>
+          <a href="{% url 'create-dst' %}">Click here</a> to add destination
+          {% endif %}
         </div>
         <!-- Listing navigation -->
         <div class="p-4 bg-light mb-5">

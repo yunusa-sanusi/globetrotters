@@ -3,6 +3,11 @@
 {% block title %}{{ post.title }}{% endblock title %}
 {% block content %}
 <section class="py-5">
+  {% if messages %}
+  {% for message in messages %}
+  <p class="alert alert-{{ message.tags }}">{{ message }}</p>
+  {% endfor %}
+  {% endif %}
   <div class="container text-center">
     <p class="h6 mb-0 text-uppercase text-primary">{{ post.category }}</p>
     <h1>{{ post.title }}</h1>
@@ -10,7 +15,7 @@
       <li class="list-inline-item align-middle"><img class="rounded-circle shadow-sm" src="{% static 'img/person-1.jpg' %}" alt=""
           width="40" /></li>
       <li class="list-inline-item mr-0 text-muted align-middle">By </li>
-      <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Jason Doe</a>
+      <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Jane Doe</a>
       </li>
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
       <li class="list-inline-item text-muted align-middle mr-0">{{ post.created_at }}</li>
@@ -26,7 +31,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-        <p class="lead first-letter-styled line-height-lg">{{ post.content }}</p>
+        <p class="lead first-letter-styled line-height-lg">{{ post.content | linebreaks }}</p>
         <div class="p-4 bg-light mb-5">
           <ul class="list-inline mb-0 text-muted tags">
             <span class="mr-2">Tags: </span>

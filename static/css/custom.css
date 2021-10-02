@@ -31,3 +31,13 @@
 .delete {
   border-radius: 5px;
 }
+
+.form {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.btn-login:hover {
+  background-color: #ebaa3d;
+  color: #000;
+}

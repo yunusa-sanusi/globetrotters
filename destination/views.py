@@ -1,5 +1,6 @@
 from django.core import paginator
 from django.core.paginator import Paginator
+from django.contrib import messages
 from django.shortcuts import render, redirect
 from destination.forms import DestinationForm, CommentForm
 from destination.models import Destination, Comment
@@ -56,6 +57,7 @@ def add_destination(request):
         if form.is_valid():
             form.cleaned_data
             form.save()
+            messages.success(request, 'Destination was added successfully')
             return redirect('destinations')
 
     context = {
@@ -75,6 +77,7 @@ def update_destination(request, slug):
             request.POST, request.FILES, instance=destination)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Destination was updated successfully')
             return redirect('single-dst', form.data['slug'])
 
     context = {
@@ -90,6 +93,7 @@ def remove_destination(request, slug):
 
     if request.method == 'POST':
         destination.delete()
+        messages.success(request, 'Destination was removed successfully')
         return redirect('destinations')
 
     context = {

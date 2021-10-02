@@ -3,6 +3,11 @@
 {% block title %}{{ single_dst.title }}{% endblock title %}
 {% block content %}
 <section class="py-5">
+  {% if messages %}
+  {% for message in messages %}
+  <p class="alert alert-{{ message.tags }}">{{ messages }}</p>
+  {% endfor %}
+  {% endif %}
   <div class="container text-center">
     <h1>{{ single_dst.title }}</h1>
     <ul class="list-inline small text-uppercase mb-0">
@@ -25,15 +30,15 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-8 mb-5 mb-lg-0">
-        <p class="lead first-letter-styled line-height-lg">{{ single_dst.content }}</p>
+        <p class="lead first-letter-styled line-height-lg">{{ single_dst.content | linebreaks }}</p>
         <div class="p-4 bg-light mb-5">
           <ul class="list-inline mb-0 text-muted tags">
-            <span class="mr-2">Categories: </span>
-            {% for category in categories %}
+            <span class="mr-2">Continents: </span>
+            {% for continent in continents %}
             <li class="list-inline-item mr-2 pr-lg-2">
               <a class="tag reset-anchor" href="#">
                 <i class="fas fa-bookmark text-primary"></i>
-                {{ category }}
+                {{ continent }}
               </a>
             </li>
             {% endfor %}

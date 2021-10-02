@@ -1,5 +1,24 @@
 from django.db import models
+from django.contrib.auth import get_user_model
+from django.contrib.auth.models import User
 import uuid
+
+
+User = get_user_model()
+
+
+class Owner(models.Model):
+    user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
+    profile_picture = models.ImageField(upload_to='profile_picture')
+    about = models.TextField()
+    facebook_url = models.URLField(null=True)
+    twitter_url = models.URLField(null=True)
+    instagram_url = models.URLField(null=True)
+    linkedin_url = models.URLField(null=True)
+    youtube_url = models.URLField(null=True)
+
+    def __str__(self):
+        return f'{self.user.first_name}{self.user.last_name}'
 
 
 class Post(models.Model):
@@ -7,12 +26,14 @@ class Post(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(auto_now=True)
     slug = models.SlugField(unique=True)
-    category = models.ForeignKey('Category', on_delete=models.CASCADE)
+    category = models.ForeignKey(
+        'Category', on_delete=models.CASCADE, blank=True)
     tags = models.ManyToManyField('Tag', blank=True)
     featured_image = models.ImageField(
         upload_to='featured_image')
     id = models.UUIDField(default=uuid.uuid4,
                           primary_key=True, unique=True, editable=False)
+    user = models.ForeignKey(Owner, null=True, on_delete=models.CASCADE)
 
     def __str__(self):
         return f'{self.title}'
