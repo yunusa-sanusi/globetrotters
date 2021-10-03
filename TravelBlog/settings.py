@@ -27,7 +27,7 @@ environ.Env.read_env(os.path.join(BASE_DIR, '.env'))
 
 # False if not in os.environ because of casting above
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = env('DEBUG')
+DEBUG = False
 
 # Raises Django's ImproperlyConfigured
 # exception if SECRET_KEY not in os.environ
@@ -151,6 +151,6 @@ MEDIA_ROOT = BASE_DIR / 'media'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-MAILCHIMP_API_KEY = env('MAILCHIMP_API_KEY')
-MAILCHIMP_SERVER = env('MAILCHIMP_SERVER')
-MAILCHIMP_EMAIL_LIST_ID = env('MAILCHIMP_EMAIL_LIST_ID')
+# MAILCHIMP_API_KEY = env('MAILCHIMP_API_KEY')
+# MAILCHIMP_SERVER = env('MAILCHIMP_SERVER')
+# MAILCHIMP_EMAIL_LIST_ID = env('MAILCHIMP_EMAIL_LIST_ID')
