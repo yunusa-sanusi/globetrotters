@@ -37,7 +37,7 @@ DEBUG = env('DEBUG')
 SECRET_KEY = env('SECRET_KEY')
 
 
-ALLOWED_HOSTS = ['https://globetrotter-adventures.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = ['globetrotter-adventures.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
