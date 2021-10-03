@@ -1,11 +1,44 @@
+from django.conf import settings
 from django.core.paginator import Paginator
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
+from django.http import response
 from django.shortcuts import render, redirect
+
+import mailchimp_marketing as MailchimpMarketing
+from mailchimp_marketing.api_client import ApiClientError
+
 from .models import Post, Comment
 from .forms import PostForm, CommentForm
 from destination.models import Destination, Continent
+
+
+api_key = settings.MAILCHIMP_API_KEY
+mailchimp_server = settings.MAILCHIMP_SERVER
+mailchimp_list_id = settings.MAILCHIMP_EMAIL_LIST_ID
+
+
+# Mailchimp subscription
+def mailchimp_subscription(email):
+    mailchimp = MailchimpMarketing.Client()
+    mailchimp.set_config({
+        'api_key': api_key,
+        'server': mailchimp_server
+    })
+
+    list_id = mailchimp_list_id
+
+    member_info = {
+        'email_address': email,
+        'status': 'subscribed'
+    }
+
+    try:
+        response = mailchimp.lists.add_list_member(list_id, member_info)
+        print(f'response: {response}')
+    except ApiClientError as error:
+        print(f'An exception occurred: {error.text}')
 
 
 def index(request):
@@ -19,6 +52,14 @@ def index(request):
         # Getting the destinations for each category
         continents.append(
             {'continent': continent.name, 'count': Destination.objects.filter(continents=continent).count()})
+
+    # Handling Newsletter subscription form
+    if request.method == 'POST':
+        email = request.POST['email']
+        mailchimp_subscription(email)
+        messages.success(
+            request, 'You have successfully subscribed to our newsletter')
+        return redirect('blog-home')
 
     context = {
         'continents': continents,

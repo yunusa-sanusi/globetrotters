@@ -1,0 +1,43 @@
+.cat-card {
+  width: 50px;
+  border: 1px solid #ebaa3d;
+  border-radius: 10px;
+}
+
+.cat-card:hover {
+  background-color: #ebaa3d;
+  color: #fff !important;
+}
+
+.hero-img {
+  height: 100vh !important;
+}
+
+.tags {
+  font-style: italic !important;
+  font-size: 0.8rem;
+}
+
+.btn-submit {
+  border-radius: 5px !important;
+}
+
+.form-container {
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+.edit,
+.delete {
+  border-radius: 5px;
+}
+
+.form {
+  border: 1px solid #000;
+  border-radius: 5px;
+}
+
+.btn-login:hover {
+  background-color: #ebaa3d;
+  color: #000;
+}
