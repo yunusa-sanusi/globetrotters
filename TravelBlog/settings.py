@@ -13,6 +13,8 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 from pathlib import Path
 import os
 import environ
+import django_heroku
+
 
 env = environ.Env(
     # set casting, default value
@@ -163,3 +165,6 @@ CLOUDINARY_API_KEY = env('CLOUDINARY_API_KEY')
 CLOUDINARY_API_SECRET = env('CLOUDINARY_API_SECRET')
 
 CLOUDINARY_URL = f'cloudinary://{CLOUDINARY_API_KEY}:{CLOUDINARY_API_SECRET}@{CLOUDINARY_CLOUD_NAME}'
+
+# Activate Django-Heroku.
+django_heroku.settings(locals())
