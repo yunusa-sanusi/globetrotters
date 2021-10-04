@@ -1,0 +1,1549 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2021-10-02T05:27:45.701Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2021-10-02T05:28:19.719Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2021-10-02T12:50:05.672Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "yunusanusi07",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2021-10-02T12:50:22.244Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2021-10-02T12:50:57.359Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "1",
+      "object_repr": "admin",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2021-10-02T12:51:19.100Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "yunusanusi07",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2021-10-02T21:24:24.478Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Lifestyle",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2021-10-02T21:24:34.497Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Travel Guide",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2021-10-02T21:24:46.850Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Hiking",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2021-10-02T21:25:05.299Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Climbing",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2021-10-02T21:25:47.926Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Climbing",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2021-10-02T21:25:48.041Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Hiking",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2021-10-02T21:25:48.196Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Lifestyle",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2021-10-02T21:26:02.517Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Hiking",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2021-10-02T21:26:09.871Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Climbing",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2021-10-02T21:26:23.143Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Lifestyle",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2021-10-02T21:26:42.031Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Beaches",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2021-10-02T21:35:34.068Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Beaches",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2021-10-02T21:35:43.096Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "2",
+      "object_repr": "Africa",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2021-10-02T21:35:49.064Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "3",
+      "object_repr": "Asia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2021-10-02T21:35:56.296Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "4",
+      "object_repr": "Australia",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2021-10-02T21:36:07.758Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "5",
+      "object_repr": "Europe",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2021-10-02T21:36:26.093Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "6",
+      "object_repr": "North America",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2021-10-02T21:36:32.717Z",
+      "user": 1,
+      "content_type": 12,
+      "object_id": "7",
+      "object_repr": "South America",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2021-10-02T21:38:05.805Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "janedoe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Username\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2021-10-02T21:57:46.039Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "ea4cea5d-eeb1-49c9-b214-faf3885417c5",
+      "object_repr": "New Venice Entry Fees",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2021-10-02T22:09:28.019Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "News",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2021-10-02T22:09:40.528Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "ea4cea5d-eeb1-49c9-b214-faf3885417c5",
+      "object_repr": "New Venice Entry Fees",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Category\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2021-10-04T10:38:46.731Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "f9e7c6a7-48bc-4337-8039-57021f6a72e3",
+      "object_repr": "Romania’s Digital Nomad Visa",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2021-10-04T10:39:08.160Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "f8b7628b-417d-4148-8d96-353c0d1994b6",
+      "object_repr": "Should You Avoid the Florida Keys This Summer?",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2021-10-04T10:39:25.791Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "ea4cea5d-eeb1-49c9-b214-faf3885417c5",
+      "object_repr": "New Venice Entry Fees",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2021-10-04T10:39:42.723Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "d28fda8a-b123-446c-9e16-bb96fecf0329",
+      "object_repr": "Cruise Trends for Summer 2021",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2021-10-04T10:40:00.289Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "b6c6c87d-b01d-4d5f-9c89-6de05fe10eaf",
+      "object_repr": "Top Destinations With No (Or Few) Requirements",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2021-10-04T10:40:17.694Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "90d30774-47f8-4264-9d2c-25b7269e92c5",
+      "object_repr": "2020: The Worst Year For Air Travel",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2021-10-04T10:40:34.328Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5f875070-3e3b-45c0-8cb8-2d53f2cd95f2",
+      "object_repr": "England Relaxes Travel Restrictions",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2021-10-04T10:40:55.274Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "3e1c4d9f-6fd6-46d8-af5d-4ab4972ac33c",
+      "object_repr": "The Most Liveable City in the World",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2021-10-04T10:41:17.200Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "33b1370b-7863-4853-a20d-2502d2a07a96",
+      "object_repr": "The Safest Destinations in the World Right Now",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2021-10-04T10:41:36.192Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "27e988fb-ce98-448b-9f83-9ecdb393599d",
+      "object_repr": "The Best US Hotels",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Featured image\", \"User\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2021-10-04T10:48:19.948Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "JaneDoe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Facebook url\", \"Twitter url\", \"Instagram url\", \"Linkedin url\", \"Youtube url\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2021-10-04T10:48:59.932Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "Perth, Australia",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Destination image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2021-10-04T10:49:13.698Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Paris, France",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Destination image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2021-10-04T10:49:33.744Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Changi, Singapore",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Destination image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2021-10-04T10:49:53.836Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Paris, France",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Destination image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2021-10-04T10:50:08.203Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Ontario, Canada",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Destination image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2021-10-04T10:50:21.717Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Sahara, Morocco",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Destination image\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2021-10-04T10:51:39.445Z",
+      "user": 1,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "JaneDoe",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Profile picture\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 7,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 7,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 7,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 7,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add tag",
+      "content_type": 8,
+      "codename": "add_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change tag",
+      "content_type": 8,
+      "codename": "change_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete tag",
+      "content_type": 8,
+      "codename": "delete_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view tag",
+      "content_type": 8,
+      "codename": "view_tag"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add post",
+      "content_type": 9,
+      "codename": "add_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change post",
+      "content_type": 9,
+      "codename": "change_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete post",
+      "content_type": 9,
+      "codename": "delete_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view post",
+      "content_type": 9,
+      "codename": "view_post"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add comment",
+      "content_type": 10,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change comment",
+      "content_type": 10,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete comment",
+      "content_type": 10,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view comment",
+      "content_type": 10,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add owner",
+      "content_type": 11,
+      "codename": "add_owner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change owner",
+      "content_type": 11,
+      "codename": "change_owner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete owner",
+      "content_type": 11,
+      "codename": "delete_owner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view owner",
+      "content_type": 11,
+      "codename": "view_owner"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add category",
+      "content_type": 12,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change category",
+      "content_type": 12,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete category",
+      "content_type": 12,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view category",
+      "content_type": 12,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add destination",
+      "content_type": 13,
+      "codename": "add_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change destination",
+      "content_type": 13,
+      "codename": "change_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete destination",
+      "content_type": 13,
+      "codename": "delete_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view destination",
+      "content_type": 13,
+      "codename": "view_destination"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add comment",
+      "content_type": 14,
+      "codename": "add_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change comment",
+      "content_type": 14,
+      "codename": "change_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete comment",
+      "content_type": 14,
+      "codename": "delete_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view comment",
+      "content_type": 14,
+      "codename": "view_comment"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add continent",
+      "content_type": 12,
+      "codename": "add_continent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change continent",
+      "content_type": 12,
+      "codename": "change_continent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete continent",
+      "content_type": 12,
+      "codename": "delete_continent"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view continent",
+      "content_type": 12,
+      "codename": "view_continent"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$bKV1dnZeUJAcGkIh2fQ3Fy$Qe+iZ9aprQFmNeLW6j0onxkpx2hes2E7kdMsWCAanJM=",
+      "last_login": "2021-10-04T10:37:45.759Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2021-10-02T05:08:52Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$260000$H7tt8fmF7qqG67pbFp2jOI$Ckg8Bzcx3xu7kYOHQCrn+3UWICJ6+PyxkOYPbwHo+bI=",
+      "last_login": "2021-10-02T22:10:58.561Z",
+      "is_superuser": false,
+      "username": "janedoe",
+      "first_name": "Jane",
+      "last_name": "Doe",
+      "email": "janedoe@gmail.com",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2021-10-02T12:50:05Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": { "app_label": "admin", "model": "logentry" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": { "app_label": "auth", "model": "permission" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": { "app_label": "auth", "model": "group" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": { "app_label": "auth", "model": "user" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": { "app_label": "contenttypes", "model": "contenttype" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": { "app_label": "sessions", "model": "session" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": { "app_label": "blog", "model": "category" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": { "app_label": "blog", "model": "tag" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": { "app_label": "blog", "model": "post" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": { "app_label": "blog", "model": "comment" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 11,
+    "fields": { "app_label": "blog", "model": "owner" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 12,
+    "fields": { "app_label": "destination", "model": "continent" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 13,
+    "fields": { "app_label": "destination", "model": "destination" }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 14,
+    "fields": { "app_label": "destination", "model": "comment" }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "a9cmauvarb6m7wowg02u4n4qr2xle1vs",
+    "fields": {
+      "session_data": "e30:1mWeYK:zIN0vuIxTPedjrubyC3mBOUY2rKyU_eNlh93xFZ-95g",
+      "expire_date": "2021-10-16T12:55:44.144Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ay1cvjkqglg7w9yjn66u9auhv3io1o9i",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGlm2489CSZ8zWLveDQ6gRIqTCnF3iJQC2jcz76UybmvNW5Mlj6wuyqrT70ZYHjLtgO843WZd5mldRtK7og_adD-zPK-H-3dQsdVvHdkbVwgEeEAXbLJiOqQIbJ0bKEUp6IHOQDEkYOoCG_QSUhfFcAH1_gDu2Tgy:1mXLLt:GbpR_ii2O1KIp-CU9d532DG9FD9EF0Ac14JwivRTZkw",
+      "expire_date": "2021-10-18T10:37:45.899Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "xc9ianoba32pf91psvo7sgeb1io6wg5l",
+    "fields": {
+      "session_data": "e30:1mWeRf:0Rs5AVj4RNHZ46lC2yRS4RG1v2nG-iJ24IKULyopZnE",
+      "expire_date": "2021-10-16T12:48:51.349Z"
+    }
+  },
+  {
+    "model": "blog.owner",
+    "pk": 1,
+    "fields": {
+      "user": 2,
+      "profile_picture": "globetrotter-adventures/images/profile-pictures/author_lgn8ii",
+      "about": "This is about the owner of the site. This person loves to go on adventures around the world. Has been to many different countries and wants to share every moment of the adventure with you. Have fun going through my site.",
+      "facebook_url": "https://facebook.com/yunusa.sanusi.39/",
+      "twitter_url": "https://twitter.com/SanusiYunusa8",
+      "instagram_url": "https://instragram.com",
+      "linkedin_url": "http://www.linkedin.com/in/sanusi-yunusa",
+      "youtube_url": "http://youtube.com"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "27e988fb-ce98-448b-9f83-9ecdb393599d",
+    "fields": {
+      "title": "The Best US Hotels",
+      "content": "I think we’ve all been in the situation where you book a hotel that looks fabulous in the photos, you get really excited in the lead-up, and when you get there you start thinking you must have got the wrong address. Dirty pools, construction works, and general disrepair are some of the disappointments that might await you when you book the ‘hotel of dreams’.\r\n\r\nThe problem is that with great online photos it can be hard to tell whether a hotel is ‘catfishing’ you so to speak.\r\n\r\nLuckily, we live in a world where people love to leave their opinion on the internet, so finding reviews for a particular hotel shouldn’t be too hard. On top of that J.D. Power has released its annual North America Hotel Guest Satisfaction Index Study for 2021 to give you more insight into which hotels will leave you wanting to claim squatters’ rights and live there.\r\n\r\nWoman at a hotel\r\n\r\nThe study shows that guest satisfaction is unchanged from 2020, but is up 10 points compared to the same study in 2019. This study has been going for 25 years, and it has based its 2021 responses on the experiences of 33,000 hotel guests between June 2020 and May 2021.\r\n\r\nSo, what factors have been analyzed? Reservation, arrival/departure, guestrooms, food and beverage, services and amenities, hotel facilities, and cost and fees were all studied for more than 100 hotel brands across 6 different market segments.\r\n\r\nThe 6 market segments are: Luxury, upper upscale, upscale, upper midscale, midscale, and economy, and the score each hotel receives is points-based, out of a possible 1,000.\r\n\r\nContents  hide \r\nLuxury\r\nUpper Upscale\r\nUpscale\r\nUpper-midscale\r\nMidscale\r\nEconomy\r\nLuxury\r\nThe Ritz-Carlton \r\n\r\nThe Ritz-Carlton scored 890 points out of a possible 1,000, beating other popular brands in the same category such as Four Seasons, Trump Hotels, and Waldorf Astoria. Just behind the Ritz-Carlton are JW Marriott with 887 points, and Park Hyatt with 885.\r\n\r\nUpper Upscale  \r\nHard Rock Hotels\r\n\r\nHard Rock Hotels outranked other hotels in the same category by miles, scoring 895 points, and was ranked as the best hotel brand for six of the seven factors; arrival/departure, guestrooms, food and beverage, services and amenities, hotel facilities, and cost and fees.\r\n\r\nUpscale\r\nAC Hotels\r\n\r\nAC Hotels scored 871 points on the scale, which put it seven points ahead of its next competitor, Best Western Premier which received 864 points.\r\n\r\nUpper-midscale\r\nDrury Hotels\r\n\r\nDrury Hotels has won this category for 16 years in a row, this year with 865 points. The brand was ranked best in its category for food and drink. Other hotel brands in this category were Fairfield, Holiday Inn Express, and Best Western Plus, with Home2 Suites by Hilton coming in second with 856 points.\r\n\r\nMidscale\r\nTru by Hilton\r\n\r\nTru by Hilton winning this category is quite an achievement seeing as it only launched in 2016, and is already knocking brands such as Best Western and Candlewood Suites out the water. Tru by Hilton ranked best for this category with 864 points, with Wingate by Wyndham not far behind with 858 points.\r\n\r\nEconomy\r\nSurestay by Best Western\r\n\r\nMaybe not as impressive as 16 consecutive years, but SureStay by Best Western managed to secure the top spot for the second year in a row with 827 points. This is a clear win above the rest, with the second hotel brand in this category Americas Best Value Inn only scoring 805.\r\n\r\nNow you can relax knowing that your next trip will not leave you frantically searching other hotels for last-minute cancellations, or with a view of a building site.",
+      "created_at": "2021-10-04T10:41:35.005Z",
+      "slug": "the-best-us-hotels",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_vh33k6",
+      "user": 1,
+      "tags": [3]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "33b1370b-7863-4853-a20d-2502d2a07a96",
+    "fields": {
+      "title": "The Safest Destinations in the World Right Now",
+      "content": "Up until now, I don’t think any of us have spent so much time looking into the safety of our vacation before traveling. I mean, we all know the golden rules of traveling, like don’t walk in a dodgy part of the city alone at night, keep your valuables hidden, or make sure someone always knows where you are, but how about not catching a global virus? That’s a new one to add to the list.\r\n\r\nAnd while countries are opening up and vaccination programs around the world are helping to cull the total number of cases of COVID, if you’re feeling a bit anxious about whether you’re putting yourself at further risk by traveling, just know you’re not alone.\r\n\r\nThis is why we’ve put together this list of destinations that the CDC rate as the lowest risk places to travel to. These destinations are all risk level 1, which means there is still a risk of COVID, but the risk is relatively low.\r\n\r\nThe CDC is still recommending that anyone traveling to these destinations is fully vaccinated.\r\n\r\nJust remember that all of these destinations have their own travel restrictions in place, based on many different variants, such as which country you’re traveling from or whether you’re vaccinated, so before you get carried away planning a trip anywhere, check that you can actually go there first because arriving at the airport only to be turned away would result in some SERIOUS travel blues.\r\n\r\nJust a side note: These countries are the safest countries currently, based on COVID rates alone. It doesn’t take into account any other safety risks you might encounter.\r\n\r\nKsamil Albania\r\nAlbania\r\nAmerican Samoa\r\nAnguilla\r\nAntigua and Barbuda\r\nAustralia\r\nBarbados\r\nBenin\r\nThe British Virgin Islands\r\nBrunei\r\nBurkina Faso\r\nBurundi\r\nCayman Islands\r\nChad\r\nChina\r\nComoros\r\nIvory Coast\r\nCuraçao\r\nDominica\r\nEswatini\r\nFalkland Islands\r\nFrench Polynesia\r\nThe Gambia\r\nGhana\r\nGreenland\r\nGrenada\r\nGuinea\r\nHong Kong\r\nIceland\r\nIsle of Man\r\nIsrael\r\nLaos\r\nLiechtenstein\r\nMali\r\nMalta\r\nMarshall Islands\r\nMauritius\r\nMicronesia\r\nMontserrat\r\nNew Caledonia\r\nNew Zealand\r\nNiger\r\nNigeria\r\nNorthern Mariana Islands\r\nPalau\r\nSaba\r\nSaint Barthelemy\r\nSaint Pierre and Miquelon\r\nSenegal\r\nSingapore\r\nSint Eustatius\r\nSouth Korea\r\nTaiwan\r\nTogo\r\nTurks and Caicos\r\nVietnam\r\nThere are some pretty incredible destinations on that list, so just like the saying ‘nice guys don’t have to be boring’, neither do safe countries.",
+      "created_at": "2021-10-04T10:41:15.735Z",
+      "slug": "the-safest-destinations-in-the-world-right-now",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_jnhsuh",
+      "user": 1,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "3e1c4d9f-6fd6-46d8-af5d-4ab4972ac33c",
+    "fields": {
+      "title": "The Most Liveable City in the World",
+      "content": "If you think of the most liveable city in the world, where do you think of? Paris? London? Tokyo? Nope, nope, and nope.\r\n\r\nIt’s been announced that this year, the most liveable city in the world goes to… Auckland!\r\n\r\nauckland\r\nThe study is annually completed by the Economist Intelligence Unit (EIU) and ranks 140 countries based on their liveability.\r\n\r\nFactors that affect the rankings are:\r\n\r\nStability\r\nHealthcare\r\nCulture & Environment\r\nEducation\r\nInfrastructure\r\nSince 2018, Vienna, Austria has been the top dog, but this year, it’s been kicked out of the top 10 altogether.\r\n\r\nAuckland has stolen the top spot in 2021, largely due to its elimination of the Covid-19 virus. The country has only reported 26 deaths so far, and life is back to normal in terms of restrictions, which is the envy of many of us in other parts of the world.\r\n\r\nThis is a big boost in ratings for the city, as it has not managed to scrabble its way onto the top 10 board since 2017 when it came in at number 8.\r\n\r\nThe Global Liveability Index was postponed in 2020 due to Covid, but in 2019, the top cities making the cut were Vienna, Melbourne, Sydney, Osaka, Calgary, Vancouver, Tokyo, Toronto, Copenhagen, and Adelaide.\r\n\r\nUnfortunately for poor Canada, they didn’t have 3 cities in the top 10 this year. In fact, not one Canadian city managed to make its way onto the charts.\r\n\r\nThis year, the top 10 list is dominated by New Zealand, Australia, and Japan. It comes as no surprise that New Zealand and Australia would be highly ranked, due to both countries’ quick and efficient lockdown restrictions, which has resulted in them both being virtually Covid free now.\r\n\r\nHere are the top 10 cities for 2021:\r\n\r\nAuckland\r\nOsaka\r\nAdelaide\r\nWellington\r\nTokyo\r\nPerth\r\nZurich\r\nGeneva\r\nMelbourne\r\nBrisbane\r\n\r\nAustralia should be rejoicing with 4 out of the top 10 cities coming from its sandy shores. Adelaide, Perth, Melbourne, and Brisbane all made the list. Sydney lost its spot, but Perth and Brisbane were new additions to the charts. Auckland wasn’t the only New Zealand city to make the cut. Wellington managed to make a respectable 4th position as well, a big difference from 2019 when none of the country’s cities made the list.\r\n\r\nJapan has stayed pretty stable with both Osaka and Tokyo making the list, as they did in 2019.\r\n\r\nAnd Switzerland has been welcomed to the top 10, with Zurich and Geneva coming in at #7 and #8, neither of which were ranked in the top 10 in 2019.\r\n\r\nOn the opposite end of the scale, the countries that have been ranked as the least liveable this year include Damascus, Lagos, Port Moseby, Dhaka, Algiers, and Tripoli.",
+      "created_at": "2021-10-04T10:40:54.047Z",
+      "slug": "the-most-liveable-city-in-the-world",
+      "category": 2,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_hwx4jl",
+      "user": 1,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "5f875070-3e3b-45c0-8cb8-2d53f2cd95f2",
+    "fields": {
+      "title": "England Relaxes Travel Restrictions",
+      "content": "The British government has just announced its newest relaxation in Covid travel restrictions. From 4 am on August 2nd, passengers arriving from amber countries will not have to quarantine if they have been fully vaccinated within the EU or U.S.\r\n\r\nThis new measure has been put into place to boost the reopening of international travel, but is it too soon?\r\n\r\nEngland\r\nFrom July 19th or ‘freedom day’ as it’s been dubbed, England lifted all Covid restrictions, reopening clubs and large events that had been shut for the better part of 16 months, lifting limits on the size of groups permitted to meet and banishing the requirement for face masks in public indoor spaces.\r\n\r\nDespite this, the Covid rates in England are still particularly high, with over 27,000 new cases per day. The virus rates are the highest they have been since January when the country was locked down, with residents unable to leave their homes aside from essential shopping and traveling to work if necessary.\r\n\r\nRegarding the lifting of travel restrictions, in order to avoid quarantine, you must be fully vaccinated with vaccines authorized by the European Medicine Agency (EMA), or if you’re from the U.S, those approved by the Food and Drug Administration (FDA). If you’re a Swiss national, you need to have been vaccinated in line with the Swiss vaccination program.\r\n\r\nIf you can tick all the boxes above, you won’t have to quarantine on arrival in England. You will also avoid having to do a day 8 Covid test. You will still be required to take a pre-departure Covid test, as well as a PCR test on day 2 after arrival, and complete a passenger location form. Those from the U.S. will have to prove their residency.\r\n\r\nAs all restrictions are now lifted, you can be confident that your UK trip won’t be ‘Corona-fied’, and you’ll still be able to visit all the places you’ve planned, however keeping yourself safe by still maintaining social distancing where possible, washing your hands frequently, and wearing a mask when in close proximity with a large crowd of people is still a good idea.\r\n\r\nGrant Schapps, the Transport Minister for the UK said that the reopening of England to international tourists would likely be followed by the rest of the United Kingdom welcoming travelers in the coming weeks, which would be another huge boost for the airlines and travel companies impacted by the coronavirus pandemic.\r\n\r\nThe UK is now urging the U.S. government to rethink its travel restrictions for British citizens. Non-U.S. citizens are currently banned from entering the United States from the UK.\r\n\r\nAre you happy with the lifting of more restrictions or is it too soon?",
+      "created_at": "2021-10-04T10:40:33.119Z",
+      "slug": "england-relaxes-travel-restrictions",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_kywh9o",
+      "user": 1,
+      "tags": [3]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "90d30774-47f8-4264-9d2c-25b7269e92c5",
+    "fields": {
+      "title": "2020: The Worst Year For Air Travel",
+      "content": "Ok, I think we could all see this one coming. I don’t know about you, but I didn’t hear a plane in the sky for about 3 months last year, and I have to tell you, the silence was golden.\r\n\r\nSaying that, we’re all travelers here, so the abrupt halt of air travel didn’t come as music to many of our ears.\r\n\r\nIt’s now been confirmed that 2020 was the worst year for air travel, with a decrease of over 60%.\r\n\r\nAir Travel\r\nThe IATA (International Air Transport Association) are the ones confirming this statistic in its latest World Air Transport Statistics (yep, apparently that exists!), stating 2020 as the world year ON RECORD for air transport.\r\n\r\nAccording to the report, 1.8 billion people flew during 2020. That may seem like a lot considering there are 7.6 billion of us roaming about the world currently, but it’s nothing compared to the 4.5 billion passengers who flew in 2019, a decrease of 60.2%.\r\n\r\nBetween 2018-2019, passenger traffic increased by 4.9% and had been steadily on the rise for years before that.\r\n\r\nOverall air travel demand dropped by 65.9% vs the previous year too, which is no surprise considering the limited amount of flights available. Trying to fly in March 2020 was an experience, let’s just say that.\r\n\r\nTalking of travel demand, it turns out it was international travel demand that plummeted by over 75% with domestic travel demand only dropping by just over 48%.\r\n\r\nThe air travel industry was hit pretty hard by the pandemic, but have you got any idea how hard? Try €106.5 billion. Ouch, that’s a tough hit to try and come back from.\r\n\r\nThe air travel industry experienced a 69% drop in passenger revenues, down to €159 billion. I mean, we wouldn’t scoff at that amount in our pockets, but air transport is an expensive sector.\r\n\r\nThe top 5 countries for air transport in 2020 were:\r\n\r\nThe United States (45.7 million)\r\nUnited Kingdom (40.8 million)\r\nGermany (30.8 million)\r\nFrance (23.3 million)\r\nIndia (17.4 million)\r\nOn the flip side, it was the Middle East that saw the least passengers, with a drop of 71.5% in passengers, with Europe not far behind at -69.7%.\r\n\r\nHere’s hoping that air travel continues to be on the rise for the rest of 2021, and we leave those days of canceled flights and being stranded halfway across the world firmly in 2020.",
+      "created_at": "2021-10-04T10:40:16.481Z",
+      "slug": "2020-the-worst-year-for-air-travel",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_pwgnan",
+      "user": 1,
+      "tags": [2]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "b6c6c87d-b01d-4d5f-9c89-6de05fe10eaf",
+    "fields": {
+      "title": "Top Destinations With No (Or Few) Requirements",
+      "content": "Traveling right now looks a lot easier than it did a few months ago. There are currently over 100 countries Americans can visit, but there are heavy restrictions on a lot of them. Traveling whilst fully vaccinated is definitely easier than for those not vaccinated, but there are still some countries that make planning a trip a breeze for everyone. So here are several countries that U.S. citizens can visit currently, that don’t require vaccination certificates or a lot of quarantine time.\r\n\r\nWoman Traveling\r\nContents  hide \r\nAustria\r\nBosnia & Herzegovina\r\nColombia\r\nCosta Rica\r\nCroatia\r\nDominican Republic\r\nFrance\r\nMexico\r\nSpain\r\nAustria\r\nIn order to visit Austria, you’ll need to provide one of the following: a vaccination certificate, a negative PCR within the last 72 hours, an antigen test within 48 hours, or proof that you’ve had and recovered from COVID-19. If you are vaccinated, make sure you fit the bill, as Austria considers travelers vaccinated from 22 days post-injection, for the first 90 days, and after your second dose, it will remain valid for the following 270 days.\r\n\r\nBosnia & Herzegovina\r\nNot a destination that’s talked about very much, which gives you a great opportunity to go and discover it for yourself. As a U.S. citizen, you’ll need a negative COVID test (PCR or antigen) dated within 48 hours if traveling into the country from a European destination, and 72 hours if you’re traveling from elsewhere in the world (including America), or a vaccination certificate showing full vaccination for at least 14 days before entering the country.\r\n\r\nColombia\r\nIf you want to make traveling really easy for yourself, Colombia is one to consider. There are now no requirements to enter the country. You heard me right, you don’t even need to do a PCR test (unless you’re arriving from India).\r\n\r\nCosta Rica\r\nCosta Rica’s travel requirements have been a little different to most, but they’ve now relaxed them a bit. If you’re vaccinated, you will no longer need to purchase travel insurance that covers lodging and medical expenses in case of catching COVID-19. IF you’re unvaccinated, you will still need to purchase a policy that includes this. You’ll need it to cover at least $50,000 for medical expenses and $2,000 for lodging. All travelers will also need to complete a digital health pass within 72 hours of landing in the country.\r\n\r\nCroatia\r\nFor Americans traveling into Croatia, you’ll need to provide proof of vaccination, or a negative PCR test from no longer than 72 hours before landing, an antigen test taken within 48 hours, or proof of recovery from COVID-19.\r\n\r\nDominican Republic\r\nAnother country with no requirements, so you can get on that beach ASAP. Officials are randomly selecting a very small group of passengers at every entry point for rapid testing. If you’re vaccinated or have taken a negative PCR within 72 hours, you’ll be exempt from this. But I wouldn’t worry if not, like I said they’re only randomly selecting a few individuals.\r\n\r\nFrance\r\nYou can visit France from the U.S. with proof of vaccination, or with a negative PCR or antigen test from within the last 72 hours.\r\n\r\nMexico\r\nNo need to prove anything here, you can travel into Mexico worry-free by plane. Unfortunately, the land border is restricted for non-essential travel until at least August 21st, so make sure you fly in.\r\n\r\nSpain\r\nVaccinated, unvaccinated, everyone is welcome here. All you’ll need to do is download the Spain Travel Health app and show a QR code generated by the app.\r\n\r\nSo there are 9 options of places you can visit without having to isolate or take approximately 270 COVID tests to prove you’re negative. In fact, a lot of these countries don’t require you to do anything more than put your feet up and have a good time, so there’s no extra stress added in the lead-up to your trip.",
+      "created_at": "2021-10-04T10:39:58.914Z",
+      "slug": "top-destinations-with-no-or-few-requirements",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_v5lozb",
+      "user": 1,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "d28fda8a-b123-446c-9e16-bb96fecf0329",
+    "fields": {
+      "title": "Cruise Trends for Summer 2021",
+      "content": "Cruising is back with a bang, and CruiseComplete has published a trend report for July 2021 to give us an idea of what’s proving to be popular, and maybe give you some inspiration for booking your next cruise.\r\n\r\nThe cruising industry has been one of the hardest-hit travel sectors over the pandemic, but it’s not going down without a fight. Now that cruises are operating again (at least from the U.S.), CruiseComplete alone is receiving over 25,000 quote requests for cruises every month.\r\n\r\nIf you’re thinking sailing across the ocean while surrounded by luxury and cocktails on tap sounds good, get some inspiration for your booking with these latest trends.\r\n\r\nWoman on a Cruise\r\nContents  hide \r\nTop Cruise Lines\r\nCruise Ports\r\nVisited Countries\r\nCruise Length\r\nTop Cruise Lines\r\nFor Premium cruise lines, Royal Caribbean has taken the top spot, with Celebrity Cruises and Carnival Cruise Lines not far behind.\r\n\r\nIf you’re looking for luxury, Oceania Cruises is clearly the winner this year, with Viking Ocean Cruises and Cunard Line also being popular choices.\r\n\r\nAnd if river cruising is more your thing, you might want to check out American Cruise Lines, Viking River Cruises, and American Queen Steamboat Company.\r\n\r\nCruise Ports\r\nWhere are travelers departing from?\r\n\r\nFor premium cruises, Florida is king. Fort Lauderdale, Miami, and Port Canaveral are all popular departure ports.\r\n\r\nMiami also wins for the luxury category, just beating Lisbon, Portugal, and Greece, but Miami doesn’t win for river cruises, Amsterdam and Budapest are the top picks.\r\n\r\nForget departure ports for a second though, we wanna know which ports people are visiting.\r\n\r\nCozumel (Mexico), Perfect Day at CocoCay (Royal Caribbean’s own private island in the Bahamas), Castries (Saint Lucia), and Kotor (Montenegro) are all highly visited ports this year.\r\n\r\nRiver cruisers are enjoying visiting Cologne (Germany), Vienna (Austria), and Budapest (Hungary).\r\n\r\nVisited Countries\r\nThe fact that everyone is after some sun after over a year of being stuck inside probably isn’t going to surprise you.\r\n\r\nThe Bahamas, Mexico, The U.S., Greece, Italy, and Spain are the top contenders for passengers, and no wonder – we wouldn’t mind visiting any of these places either.\r\n\r\nFor river cruises, it’s Germany and France travelers are dying to see.\r\n\r\nCruise Length\r\nWhy is ‘for the rest of my life’ not an option on the cruise booking websites? That needs to change.\r\n\r\nIt turns out not everyone shares our views though, with most people opting for seven-ten night cruises, whether that’s an ocean cruise or a river cruise. \r\n\r\nSo, there are the cruise trends for July 2021. Whether you’re looking at a 7-day river cruise, or you want to sail around the world like Columbus, there are options for everyone, and we hope this has given you some inspiration for your next trip.",
+      "created_at": "2021-10-04T10:39:41.200Z",
+      "slug": "cruise-trends-for-summer-2021",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_j6jejj",
+      "user": 1,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "ea4cea5d-eeb1-49c9-b214-faf3885417c5",
+    "fields": {
+      "title": "New Venice Entry Fees",
+      "content": "Have you ever paid to enter a travel destination?\r\n\r\nIf you want to visit Venice, you’ll have to, starting from Summer 2022. There will be an access charge for visitors, as well as a daily cap on the number of tourists allowed in.\r\n\r\nIt seems like a spontaneous road trip to Venice will be off the cards as it’s looking likely that day visitors will need to reserve their entry in advance. Another measure that’s likely to be put in place is turnstiles at major points of entry into the city, in order to keep track of the number of visitors coming and going.\r\n\r\nVenice\r\nIt might be news for us, but this idea has been considered for years, owing to the influx of visitors Venice receives paired with the fact it is a fragile area (it’s known as Italy’s sinking city).\r\n\r\nDespite the idea being considered for a while, it took the COVID-19 pandemic for any plans to become concrete. Due to travel being almost completely brought to a standstill, residents of the city realized how peaceful their city could be. The waters became clear and wildlife came rushing back to the city quite quickly after tourists were sent packing.\r\n\r\nOfficials decided that in order to protect the quality of life of its residents, something would have to be done to regulate the number of tourists flocking to the city every day.\r\n\r\nThe first step in this plan has been put into effect this month, with Venice officials banning large cruise ships from docking inside its lagoon. Large ships are being redirected to dock at Marghera instead, although this is only temporary until a new dock can be built, specifically for these larger vessels.\r\n\r\nThe proposed entry fee isn’t likely to break the bank – somewhere between €3-€10, with different tariffs depending on the season, and the number of expected visitors that day. Those who have hotel reservations within the city are likely to be exempt from paying this charge, as well as the relatives of locals.\r\n\r\nThere is some controversy over whether this is the best move for Venice, so watch this space…",
+      "created_at": "2021-10-04T10:39:23.962Z",
+      "slug": "new-venice-entry-fees",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_vqp9j1",
+      "user": 1,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "f8b7628b-417d-4148-8d96-353c0d1994b6",
+    "fields": {
+      "title": "Should You Avoid the Florida Keys This Summer?",
+      "content": "The Florida Keys are an amazing US destination, especially if you’re from a colder state, looking for some sun. Usually, the summer months are quieter, as people enjoy the summertime in their own states before tourism picks back up as it gets colder elsewhere.\r\n\r\nMaybe you normally visit the Florida Keys during the summer for this very reason. Better hotel availability, lower prices, and shorter lines (if any) are all reasons to visit a destination during its off-season.\r\n\r\nFlorida Keys\r\n\r\nForget everything I just told you, because this year Florida Keys is packed with tourists. With restrictions on air travel, multiple Covid tests, and individual country restrictions, a lot of Americans are choosing to stay closer to home and enjoy a domestic vacation this year.\r\n\r\nIt just so happens that the whole of the US has chosen the Florida Keys for their vacation. Ok, I might be exaggerating, but currently, every tourist attraction has long lines and all the resorts are full.\r\n\r\nThis means all the prices have sky-rocketed as businesses try to recover from the last year. The average daily hotel rate has increased by $97 from 2019, from $288 to $385.\r\n\r\nIt’s not just greed driving the hotel prices up though. Sheldon Suga, the vice president, and managing director of Hawks Kay Resort explained that hotel costs have been driven up by Covid restrictions with extra health and safety measures in place. He also stated that staffing proves to be an issue, meaning the staff are now paid higher wages as an incentive to stay. Food costs have also risen in the past few months.\r\n\r\nIt’s understandable that travelers are reluctant to go abroad, even to nearby Mexico or the Caribbean, which are both open to U.S tourists.\r\n\r\nCovid restrictions change all the time, so booking an international vacation can seem risky, with many being worried in the lead up at the prospect of their trip being canceled last minute, rather than the excitement they would normally feel on the countdown to their vacation.\r\n\r\nThere’s also the chance that restrictions might change and borders might close while you’re abroad, meaning a long quarantine period when you return, or worse, trouble getting home.\r\n\r\nWill you still be considering the Florida Keys for your summer vacation, or will you be looking to plan a trip elsewhere?",
+      "created_at": "2021-10-04T10:39:06.888Z",
+      "slug": "should-you-avoid-the-florida-keys-this-summer",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_pjc40p",
+      "user": 1,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": "f9e7c6a7-48bc-4337-8039-57021f6a72e3",
+    "fields": {
+      "title": "Romania’s Digital Nomad Visa",
+      "content": "We love how accessible the world is becoming to digital nomads. There are plenty of countries now offering long-term digital nomad visas so that the process of living in a country is a little easier if you work remotely.\r\n\r\nUp until recently, for most countries, you needed to get a tourist visa, leave the country before the visa expired, and re-enter the country a couple of days later. A lot of tourist visas are only 30 days, so imagine doing that every single month?! Exhausting.\r\n\r\nThe newest country set to join the growing group of digital-nomad-friendly countries is Romania. It’s still in the works, but a draft law is currently making its way through the Romanian parliament to adopt a new visa to entice remote workers into the country.\r\n\r\nRomania\r\nDiana Buzoianu, who is a Romanian MP and the initiator of the digital nomad program said “We want international citizens to live in and enjoy our beautiful country, where innovation intersects with traditions and nature.” She went on to add “I believe that the program will help us build our country brand, becoming a leader in this area”.\r\n\r\nShe is very passionate about the potential of this visa and has pushed for it to be passed as emergency legislation in order to speed up its adoption.\r\n\r\nHere are what the requirements are likely to be:\r\n\r\nProof of being an employee or an owner of a company registered outside of Romania.\r\nProof that during the 6 months previous to entering the country, and for the duration of the visa, the applicant will have an income that amounts to at least the national average wage which is 5,429 lei, or €1,100.\r\nProof of health insurance for the duration of the visa.\r\nRomania is setting itself apart from other countries that also offer digital nomad visa’s in the same region. In central and Eastern Europe, Croatia, Estonia, and Georgia all offer 12-month digital nomad visas, but the lowest income requirement is in Georgia, where nomads need to earn at least $2,000 (roughly €1,655) per month. Croatia’s monthly requirement is 16,900 kuna (roughly €2,240) and Estonia’s requirement is higher still at €3,504.\r\n\r\nThese requirements do exclude a large portion of lower-income digital nomads, which is who Romania may appeal to. Romania is a great base for remote workers as the cost of living is low, averaging 48% lower than living in the U.S., and a single person’s average living costs are around $491.\r\n\r\nOn top of a low living cost, Romania is known for its top quality, fast internet, even in rural parts of the country.\r\n\r\nRomania’s new digital nomad visa will certainly attract a lot of remote workers and digital nomads to the country, and we can’t wait to see it rolled out.",
+      "created_at": "2021-10-04T10:38:44.480Z",
+      "slug": "romanias-digital-nomad-visa",
+      "category": 5,
+      "featured_image": "globetrotter-adventures/images/featured-images/hero-banner_uzahnj",
+      "user": 1,
+      "tags": [1]
+    }
+  },
+  {
+    "model": "blog.category",
+    "pk": 2,
+    "fields": { "name": "Travel Guide", "slug": "travel-guide" }
+  },
+  {
+    "model": "blog.category",
+    "pk": 5,
+    "fields": { "name": "News", "slug": "news" }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": { "name": "Hiking", "slug": "hiking" }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": { "name": "Climbing", "slug": "climbing" }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 3,
+    "fields": { "name": "Lifestyle", "slug": "lifestyle" }
+  },
+  {
+    "model": "destination.destination",
+    "pk": 1,
+    "fields": {
+      "title": "Tips For Planning Your Trip To The Sahara Desert",
+      "content": "When I think of Morocco, I think about the Sahara Desert and this is exactly why I wanted to visit Morocco so badly. Planning your trip? Here’s what to expect from a trip to the Sahara Desert and more importantly, how to plan it the right way. \r\n\r\nThere are many options when it comes to finding the right desert tour. Although, many people get scammed or end up having a bad experience. To avoid this, I invite you to read this post.\r\n\r\nPSSST. Your Travel Medical Insurance Can Now Cover COVID-19!\r\nIf you grab SafetyWing Nomad Insurance, it’ll be covered just like other illnesses. I've been using it since 2019 and I can assure you it's the perfect solution for nomads like you and me.\r\nsahara desert morocco\r\nEverything You Should Know About the Trip to the Sahara Desert\r\nWhere is the Sahara Desert?\r\nA part of the Sahara Desert is in Morocco. You can find it in the south of the country as well as in the east (very close to the border with Algeria).\r\n\r\nWhen it comes to visiting the Sahara Desert, there are two places were tourist usually go. \r\n\r\nErg Chebbi and Erg Chigaga.\r\n\r\nThese two spots are popular for their sand dunes.\r\n\r\nErg Chebbi is known for its high dunes and its easier access while Erg Chigaga is known for its vast dunes and its remoteness.\r\n\r\n\r\n\r\nWe went to Erg Chebbi which was easier to go to. In this post, all the information is going to be about Erg Chebbi.\r\n\r\nHow far is the Sahara Desert?\r\nsahara trip\r\nFrom Marrakesh, you can expect a lot of driving. We are talking about roughly 600 km depending on the route chosen. Although, even though it doesn’t seem this far when you take a closer look to the map, you should know that driving in the Atlas Mountains takes time. There’s construction on the road, twisty roads and it does take a lot longer than we could imagine.\r\n\r\nTo give you an idea, you could expect about 9 hours of constant driving to reach your destination. If you stop along the way, it can easily take up to 12 hours.\r\n\r\nUsually, the tours to the Sahara Desert include stops along the way. We did stop on our way to the Desert to explore other parts of Morocco (you can read our full itinerary here). Although, when we left the Sahara Desert, we went all the way back to Marrakesh and it took us about 11 hours with very limited stops along the way.\r\n\r\nWhat’s the closest airport?\r\nThe closest airport would be Errachidia Moulay Ali Chérif. Another alternative could be Ouarzazate which is still far, but closer than Marrakesh for example.\r\n\r\nCan you squeeze it on a day trip?\r\nUnless you’re flying to one of the airports mentioned above, I guess, yes, you could, but what would be the point of that? You’d spend more time in a car than in the Sahara Desert.\r\n\r\nIf you’re currently in Marrakesh, then forget it. It’s impossible to do it on a day trip.\r\n\r\nHow many days do you need?\r\nWe did our Sahara trip within 3 days (plus 2 days in Marrakesh). On day 1, we stopped along the way to see different viewpoints. We spent the night in a Riad in Rose Valley. On day 2, we stopped along the way and we finally reached our destination – the Sahara Desert. We spent the night there. On day 3, we drove all the way back to Marrakesh. \r\n\r\nThat said, I think you should take a minimum of 4 days. This way, you won’t be spending most of your days in a car. Considering the amount of driving required to get to the Desert, I think it would be worth it to spend two nights in the desert.\r\n\r\nWhen is the best time to visit the Sahara Desert?\r\nIf the summer is known to be too hot, the winter can be quite cold at night. We went in September 2019, which was ideal. The days were hot, and the nights were colder (refreshing). The locals recommended us to go during the wintertime, but I’m guessing it might be a bit cold for me.\r\n\r\nAt the end of the day, there’s no bad timing to go to the Sahara. But… you should know that yes, it can rain sometimes. We didn’t experience any rain, but a friend of ours had rain during his trip in August.\r\n\r\nWhat to pack for your trip to the Sahara Desert?\r\nDepending on the season, this list could change. Although, this is what we needed for our Sahara trip.\r\n\r\nLight jacket for mornings and evenings – it was quite cold during the sunrise and at night time.\r\nComfortable sandals – walking in the sand with shoes is a feeling I truly hate, ha.\r\nScarf or sarong – this can, of course, help you protect yourself from the sun, but let’s be honest, it’s quite photogenic in the desert.\r\nSunscreen\r\nCamera\r\nFlashlight (or just use your phone) – if you’re planning on going outside to see the sunrise, it’s going to be dark.\r\nMotion sickness pills – while you will be driving along the Atlas Mountains, you could get sick if you aren’t good with twisty roads.\r\nComfortable and light clothing\r\nEnough cash – otherwise, you can always ask your driver to stop at an ATM, but depending on where you are, there might be a lack of options.\r\nWhat to do in the Sahara Desert?\r\nsahara desert girl\r\nWe loved our time in the Sahara Desert. In fact, one night wasn’t enough for us. We would happily go back and spend more time there. We loved the quiet vibes. It was so relaxing. Here are a few things you can do while in the Sahara.\r\n\r\nExperiencing the sunset\r\nExperiencing the sunrise\r\nStargazing at night\r\nQuad bike adventure\r\nCamel trekking\r\nBonfire & Berber music\r\nVisiting a nomad family\r\nSandboarding\r\nRelaxing while enjoying the quiet vibes\r\nHow far in advance should you book your tour to the Sahara?\r\nsahara camel trek\r\nIf you’re heading to Morocco during the high season, you might want to book your tour in advance. Although, our driver told us that people sometimes book 24 hours in advance only. It’s obviously at your own risks. I’d recommend booking it in advance so you make sure to have a positive experience.\r\n\r\nIf you risk it and there’s no spot available, you might end up having to book something on the spot and the quality of the tour might be lower. I’ve heard horror stories coming from people who decided to book something from the vendors on the street last minute.\r\n\r\nPlanning Your Morocco Desert Tour\r\nsahara\r\nOur trip to the Sahara was organized by Morocco Traveling – a lovely family business who gave us an amazing service. We had picked the 3-day tour from Marakkesh and they also provided transports for our arrival and departure.\r\n\r\nThey offer custom-made tours, private tours and group tours.\r\n\r\nOur driver Atman was lovely and helpful. He customized our itinerary for our own needs. For example, we are both caffeine addicts, he would add stops for a coffee break when he saw that our faces were low on caffeine. This is what I call VIP service, ha!\r\n\r\nBenefits of Booking a Tour with Morocco Traveling\r\nMany people have bad experiences in Morocco and it’s a shame because it gives a bad reputation to the country. With a big amount of scams out there, it’s even more important to lower the risk and simply book a tour.\r\n\r\nFrom the beginning at the airport until the end, we only had positive experiences. And that’s thanks to Morocco Traveling. They organized everything for us so we can just make the most of our trip without having to worry about anything.\r\n\r\nHonestly, I’m not usually a big fan of an organized tour, but I’m very glad we did this tour. And, I can’t wait to go back to Morocco.\r\n\r\nTips for Picking the Right Sahara Trip\r\nsahara trip\r\nRead the Reviews\r\nSeems silly, but reading the reviews, whether it’s on TripAdvisor or on Facebook, is an important step. This is how you will avoid being a victim of a scam. If you aren’t sure about a company, follow your guts and look for another company.\r\n\r\nWhat’s Included\r\nMake sure to know what is included in the tour you will pick. For example, our tour included pretty much everything apart from the lunches and personal expenses. Also, there were also optional activities on the way (such as museums) that aren’t included. We decided to skip them as we don’t like museums.\r\n\r\nWe had an incredible trip to Morocco and we LOVED the Sahara Desert.",
+      "city": "Sahara",
+      "country": "Morocco",
+      "destination_image": "globetrotter-adventures/images/destination-images/travel-home-7_xv5lag",
+      "continents": 2,
+      "slug": "tips-for-planning-your-trip-to-the-sahara-desert",
+      "date_created": "2021-10-04T10:50:21.710Z"
+    }
+  },
+  {
+    "model": "destination.destination",
+    "pk": 2,
+    "fields": {
+      "title": "Best Places To Live In Ontario",
+      "content": "Looking for the best places to live in Ontario?\r\n\r\nOntario is perhaps the most favored province for working holiday-makers and expats in Canada. This is no surprise as Ontario is home to Ottawa’s capital city, the dynamic metropolis of Toronto, and the magnificent Niagara Falls. Ontario certainly has the perfect balance between beautiful nature and bustling cities, with a sprinkling of stunning beaches too. \r\n\r\nPSSST. Your Travel Medical Insurance Can Now Cover COVID-19!\r\nIf you grab SafetyWing Nomad Insurance, it’ll be covered just like other illnesses. I've been using it since 2019 and I can assure you it's the perfect solution for nomads like you and me.\r\nHowever, Ontario is not small by any means. In fact, the province is four times bigger than the whole of the UK.\r\n\r\nTherefore, the landscape of the areas in Ontario can differ greatly, which means there’s plenty of options when it comes to living in Ontario.\r\n\r\nSo, if you’re planning on moving to Canada, read on to discover the best places to live in Ontario as an expat or working holiday-maker.\r\n\r\nToronto\r\nContents  hide \r\n1. Toronto\r\n2. Ottawa\r\n3. Waterloo\r\n4. Oakville\r\n5. Thunder Bay\r\nFinal Thoughts\r\n1. Toronto\r\nPopulation: 2.93 million\r\n\r\nToronto is undoubtedly the most popular city in Ontario. It rivals Vancouver and Montreal as the top spot for expats in Canada. As a busy, cosmopolitan, Toronto is perfect for anyone who loves the hustle and bustle of city life. The city also boasts an incredible nightlife scene, with a party to be found every night of the week. In fact, Toronto is one of the best party cities in Canada.\r\n\r\nExpats and working holiday-makers flock to Toronto for the many job opportunities the city offers. Whether you’re a banker or a barista, you’ll have a high chance of finding work here, and you’ll enjoy the diverse international culture of the city. Furthermore, as well as being a top city to find a job, Toronto has so much to do and see, including beautiful beaches and other nature spots. \r\n\r\nThe downside to living in Toronto, however, is the high living costs. Rent prices here are among the highest in Canada. So, if you want the exciting big city lifestyle, you will have to pay for it.\r\n\r\nToronto\r\nBest Neighborhoods In Toronto\r\nWhere you base yourself in Toronto will depend on the type of lifestyle you are after. Some areas are lively and hipster, thus popular with young people. Other suburbs are quiet and peaceful, so they are better suited to families.\r\n\r\nThe Annex – This west-end neighborhood is a lively hub for young professionals and students. It’s full of hip eateries, indie bookshops, and plenty of bars and cafes. \r\nWest Queen West – This part of town stretches from Queen Street to Bathurst Street and Gladstone Avenue and is home to the beautiful Trinity Bellwoods Park. It’s one of Toronto’s coolest neighborhoods, boasting a hipster vibe. You’ll never be short on boutiques, vintage clothing stores, or art galleries here.\r\nKing West – As one of the city’s busiest areas, King West is ideal for those looking to be right in the heart of the action. You’ll have everything you need right on your doorstep here, whether it’s bars, restaurants, gyms, or yoga studios. \r\n2. Ottawa\r\nPopulation: 994,800\r\n\r\nOttawa is the official capital city of Canada; however, Toronto is 2.56 times bigger. Even so, Ottawa is a thriving, busy city with a strong economy and high-income rates. Therefore, Ottawa is one of the best places to live in Ontario for expats and working holiday-makers wanting to build up their savings yet have fun at the same time.\r\n\r\nBoth housing costs and crime rates are lower in Ottawa than in Toronto. However, the cost of living is still expensive compared to other Canadian cities such as Edmonton and Montreal. Ottawa does get a bad rap for being a boring city, but this is simply because the city has a more suburban, family-oriented atmosphere than party city Toronto. \r\n\r\nWhile the vibe might be a bit more laid back, Ottawa is still a shining city for young people, and there are things to do in all seasons. Even so, the city comes alive in the summer, when it offers an array of outdoor activities, such as hiking, biking, and even whitewater rafting down the river.\r\n\r\nOttawa\r\nBest Neighborhoods In Ottawa\r\nThe great thing about the capital city is that it has lots of small, quiet neighborhoods close enough to the city center to commute every day.\r\n\r\nThe Glebe – One of Ottawa’s most eclectic and beautiful neighborhoods and just a short walk from the city center. It’s known for its trendy shops and strong community feel.\r\nWestboro – This gentrified area has recently become one of Ottawa’s trendiest neighborhoods, full of chic boutiques, fine restaurants, and hip cafes. There’s a nice mix of young professionals and families residing here. \r\n3. Waterloo\r\nPopulation: 113,500\r\n\r\nIn the south of Ontario, Waterloo is often referred to as a student city as there are two significant universities here. Therefore, it’s a fantastic place for young people and has a very international feel. About 25% of the city’s residents are overseas students, expats, or migrants. \r\n\r\nBeing just over a one-hour drive from Toronto, Waterloo is a cheaper alternative for expats in Ontario to base themselves. Housing costs are 25% lower, and it has a much less crowded feel. Of course, there are not quite as many work opportunities as in the bigger cities. However, the manufacturing and tech industries are thriving in Waterloo, so jobs are not too hard to come by.\r\n\r\nWaterloo may lack beaches, but there are plenty of parks, conservation areas, and art galleries to keep you occupied. Plus, being a student city, you’ll never get bored at night, with 26 bars and venues in downtown Waterloo alone.\r\n\r\nwaterloo\r\nBest Neighborhoods In Waterloo\r\nUptown Waterloo – Many expats choose to live in Uptown Waterloo as it’s a stone’s throw from the business district. It also has all the amenities you need and is a short walk from the 100-acre Waterloo Park.\r\nColonial Acres – One of the most desirable areas in Waterloo, this centrally located neighborhood is popular with young professionals and couples on a higher income. Properties here are beautiful and spacious, and everything you need is nearby. \r\n4. Oakville\r\nPopulation: 211,400\r\n\r\nSome expats working in Toronto choose to live in the stunning suburban town of Oakville, about a 30-minute drive or train journey away from Toronto. The lakeside location and abundance of green spaces make Oakville one of the most aesthetically pleasing cities in Ontario.\r\n\r\nIt’s best known for its nature spots and upscale dining, making it the perfect Ontario town to enjoy both the simple and finer things in life. \r\n\r\nAs Oakville is one of the most desirable areas in Ontario, it’s just as expensive to live here as in Toronto. However, if you prefer peace and quiet over the hustle and bustle and would rather spend your weekends relaxing by the lake or hiking in nature than shopping in the mall, Oakville is for you.\r\n\r\noakville\r\nBest Neighborhoods In Oakville\r\nDowntown (Old Oakville) – If you’re regularly commuting to Toronto, living in downtown Oakville is the most convenient neighborhood. Moreover, the harbourside central district boasts charm, style, and top-rated restaurants. \r\nBronte – This is where to go if you want to live in a modern high-rise overlooking the glistening lake. Bronte village also has some excellent dining options, many al-fresco, allowing you to enjoy the stunning surroundings. However, the downside is Bronte is one of the most expensive areas in Oakville.\r\n5. Thunder Bay\r\nPopulation: 110,150\r\n\r\nThunder Bay is a gorgeous riverside city located along the enormous freshwater Lake Superior in northwestern Ontario. It’s also the sunniest city in Eastern Canada, getting almost 2200 hours of sunlight a year. \r\n\r\nThunder Bay is fast becoming one of the favored destinations for people moving to Ontario. Employment levels are good, living costs are much lower than in bigger Ontario cities, and it has a strong art and sports scene. Thunder Bay is also an outdoor lover’s paradise with plenty of outdoor activities, including an extensive hiking trail network.\r\n\r\nEven so, Thunder Bay does have its downside. It’s not as safe as other cities in Ontario, and its nightlife is not much to shout about. You won’t find any Toronto-scale events or festivals in Thunder Bay. However, suppose you like the quiet life and being surrounded by nature. In that case, Thunder Bay makes one of the best cities to live in Ontario.\r\n\r\nThunday Bay\r\nBest Neighborhoods In Thunder Bay\r\nDowntown Thunder Bay – The city center is both the business and cultural hub, so it’s the best place to be in the heart of the action. Thunder Bay isn’t a huge city, so living downtown doesn’t feel too hectic or crowded. \r\nMarina Park – One of the city’s newly built neighborhoods, here you will find luxurious condos popping up around the marina boardwalk. Renting an apartment in this part of town will guarantee you splendid views of the surrounding waters. Plus, it’s where most of the city’s annual events like Canada Day celebrations take place. \r\nFinal Thoughts\r\nOntario is a diverse province that offers something for everyone. Regardless of what you’re looking for, you’re bound to find your ideal Canadian city in one of these five best places to live in Ontario. So, if you’re moving to Canada soon, be sure to keep Ontario in mind. \r\n\r\nNot sure if Ontario is the right province for you? Explore the best provinces to live in Canada.",
+      "city": "Ontario",
+      "country": "Canada",
+      "destination_image": "globetrotter-adventures/images/destination-images/travel-home-4_o2yq9k",
+      "continents": 6,
+      "slug": "best-places-to-live-in-ontario",
+      "date_created": "2021-10-04T10:50:08.192Z"
+    }
+  },
+  {
+    "model": "destination.destination",
+    "pk": 3,
+    "fields": {
+      "title": "What It’s Like To Be Sleeping At Singapore Airport",
+      "content": "If you are wondering if you can you sleep at Singapore airport, it’s a big yes!\r\n\r\nChangi Airport has many comfortable spots to pick from when it comes to sleeping in this airport. In the transit area, you can find transit hotels, snooze lounges and hundreds of comfortable and modern chairs. You can also access a lounge that includes a pool, a gym and a buffet. Although you have to pay to get in and honestly, it’s not that cheap.\r\n\r\nOverall, it’s fair to say that there are many sleeping areas in Changi Airport.\r\n\r\nI decided to spend my night in Terminal 3 (I was flying in and out of Singapore in Terminal 4, but I was able to take a shuttle to stay in the transit area to terminal 2 and then the Skytrain to Terminal 3. If you tell the shuttle bus staff your will to spend the night in the transit hotel, they should be able to clear the immigration for you.\r\n\r\nWhy did I pick Terminal 3? There’s a free cinema on-site and there’s a lot to do in this terminal. Terminal 2 could also be a great alternative as they also have a cinema and other great things to do.\r\n\r\nAfter having a nice meal and watching tv shows on Netflix, I struggled to find a spot where to sleep. It was already getting late.  All the longer couches were already taken and so were the snooze lounge chairs.\r\n\r\nAfter walking a few times in this area which is pretty quiet by the way, I finally found a massage chair (which gives you free massages). This chair became my bed for the night and I did enjoy a few massages while I was there too. Of course, it wasn’t the best spot, but I can’t really complain.\r\n\r\nI managed to sleep for about 7 hours which is pretty fair considering how I normally struggle to sleep in airports. Overall, sleeping in Changi was a success!\r\n\r\nThe next morning, I had to go through immigration and re-enter at Terminal 4 which wasn’t a big deal to me since I still had time to kill.\r\n\r\nIt turns out that terminal 4 was not bad either. In fact, it was less busy and there were a lot of comfy chairs to pick from too. (And there is also a snooze lounge in this terminal.) That being said, it would have probably been easy to sleep there too. Although, during night time, you can’t take the Skytrain or shuttle to other terminals.  I didn’t want to risk it as it’s a smaller terminal.\r\n\r\nWould I Sleep in Changi Airport Again?\r\nChangi Airport Singapore\r\nChangi Airport Sleeping Areas\r\n\r\nYes. I was pretty desperate when I realize there were about 17 hours to kill. It went by fast and I didn’t feel too much pain – in fact, my legs were pleased with the massage chair and I managed to watch a whole TV show on Netflix. Ha!\r\n\r\nWhat to Do in Singapore Airport?\r\nThere are a lot of things you can do while in Singapore airport. There are gardens, cinemas, gyms, TVs, many shops and restaurants to pick from. Honestly, it’s the perfect airport for longer stopovers.\r\n\r\nYou could even get a free city tour if you register to one of the desks at the transit lounges. The tours can be full quickly, so make sure you do this first if you have a long stopover. It’s a great opportunity to see the city.\r\n\r\nWhat to Bring for a Comfy Sleep?\r\nIf you’re like me, you will likely get cold at Changi Airport. Make sure to bring warm clothes or a blanket to be able to fall asleep. As the light will stay on, you might want to bring a sleeping mask and earplugs too.",
+      "city": "Changi",
+      "country": "Singapore",
+      "destination_image": "globetrotter-adventures/images/destination-images/travel-home-3_vk9isf",
+      "continents": 3,
+      "slug": "what-its-like-to-be-sleeping-at-singapore-airport",
+      "date_created": "2021-10-04T10:49:33.738Z"
+    }
+  },
+  {
+    "model": "destination.destination",
+    "pk": 4,
+    "fields": {
+      "title": "How Many Days In Paris Is Enough?",
+      "content": "How To Decide How Long To Stay In Paris\r\nWhen deciding how long to visit Paris, there are few things to consider like arrival time, hotel check-in, activities, transport, and more!\r\n\r\nTime Of Arrival, Hotel Check-In Time & Time Of Departure\r\nWhether you decide on 2 or 3 days in Paris, you will need to ensure that these are full days.\r\n\r\nA late arrival time may not leave you much time for sightseeing that day, so you might need to add an extra night to your visit. The same would apply to an early departure time. \r\n\r\nAlso, consider how much of a gap there is between your arrival in Paris and the time at which you can actually check into your accommodation. \r\n\r\nOn a short visit, you want to be able to make the most of every moment. This means you will need to drop your bags off somewhere as soon as you arrive. \r\n\r\nIf your check-in time is somewhat later than your arrival, contact your accommodation provider beforehand and see if they can store your luggage.\r\n\r\nIf not, you have quite a few other options. Several train stations offer storage facilities, as do CDG  and Orly airports.\r\n\r\nThere are also lots of private companies throughout Paris that will store your bags for a fee. \r\n\r\nIf you have a very early check-out time and not only want to store your luggage but would also appreciate somewhere to shower, you’ll be pleased to find that you have options there too!\r\n\r\nThere are free ‘city showers’ in almost every district of Paris and there are many gas stations that offer this facility (for a fee). \r\n\r\nWhat To See In Paris\r\nOne of the quickest ways to decide how many days in Paris you will need is to make a list of all the attractions you really want to visit.\r\n\r\nMany of the main highlights are listed below and I’ve suggested the amount of time you will need to spend at each one.\r\n\r\nThis should help you put together an itinerary for your short break and work out whether or not you can feasibly fit everything into just 2 days. \r\n\r\nIn addition to the suggested times, allow extra time for queuing, especially during May, June, September, and October when the number of visitors is at its highest. \r\n\r\nThat said, if you decided to visit several places in Paris, you may want to add a few extra days so that you can truly enjoy your holidays.\r\n\r\nhow many days do you need in Paris\r\nPace Of Activities\r\nOnce you’ve decided how many attractions you want to see, you then need to think about how long you want to spend at each one. \r\n\r\nThe times given below are suggestions – you may find yourself somewhere that intrigues you so much you want to stay longer.\r\n\r\nAdding a third day to your visit allows for that flexibility – with a two-day trip you are limited to a relatively brief visit to each attraction or cutting down on the number of highlights you visit. \r\n\r\nPSSST. Want To Get FREE Accommodation In Exchange For Work?\r\nIf you're traveling on a budget or want to save and extend your trip, this could be exactly what you’re looking for. Worldpackers is a platform that connects travelers like you with hosts. It’s just like volunteer work –exchange your skills for free accommodation. SAVE $10 using my discount code. Learn more about how it works here.\r\nRemember, too, that Paris is a city of pavement cafés and nothing gives you a better feel for its culture than a relaxing hour or two spent sipping a coffee outdoors on a sunny afternoon.\r\n\r\nTransportation\r\nA final consideration is the time spent getting around during your stay.\r\n\r\nDue to its compact size, Paris is one of the world’s best walking cities – make sure to check out these amazing walking tours in Paris.\r\n\r\nThe public transportation system in Paris is excellent.\r\n\r\nThe Metro and public buses are reliable and convenient and there is even a boat service – the Batobus – that runs up and down the Seine from May to the end of September.\r\n\r\nTaxis are everywhere and you can hail them right in the street, or you could choose to cycle instead, renting a bicycle from one of the city’s 1,800 bike stations.\r\n\r\nMain Attractions In Paris\r\nWhen visiting Paris, there is so much to see and do, but here are some of the best attractions that you can’t miss!\r\n\r\nThe Eiffel Tower\r\nA visit to the world’s most popular tourist attraction has to be number one on your sightseeing list!\r\n\r\n324 meters tall and made of 18,000 sturdy sections of iron, this is a masterpiece of engineering that is truly awesome in scale.\r\n\r\nAs you climb its many steps or use the escalator, you’ll come across everything from cafes and gift shops to a fine dining restaurant and viewing platforms.\r\n\r\nSet aside 2 to 3 hours for your visit here.",
+      "city": "Paris",
+      "country": "France",
+      "destination_image": "globetrotter-adventures/images/destination-images/travel-home-5_yapt6z",
+      "continents": 5,
+      "slug": "how-many-days-in-paris-is-enough",
+      "date_created": "2021-10-04T10:49:53.824Z"
+    }
+  },
+  {
+    "model": "destination.destination",
+    "pk": 5,
+    "fields": {
+      "title": "3 Days In Perth Itinerary, Australia",
+      "content": "Spend your first day getting to know the city of Perth. Getting around the city is easy with public transport; the buses on the CAT line are free to ride. If you prefer, Perth is also a walk and cycle-friendly city.\r\n\r\nPrepare your camera for Kings Park and Botanic Garden\r\nStart your day at Kings Park and enjoy stunning panoramic views of the city and the Swan River. You could easily spend the better half of your morning strolling around the park and discovering the native fragrant flora in the garden. The park is also the home of many war memorial structures and plaques,\r\n\r\nStroll around Perth Cultural Centre\r\nSpend the afternoon at a trendy restaurant for lunch in the heart of the Perth Cultural Centre. This area is a unique place to explore within Perth with a plethora of art galleries, museums and libraries that you could visit. As day fades to night, you can find a fine selection of hip bars to hang out in as you brush elbows with the locals.\r\n\r\nSee a flick with Rooftop Movies\r\nOne of the coolest things that you can do in Perth in the evening is to stop by the City of Perth Roe Street carpark and join in on a Rooftop Movies event. From November to March, watch a movie while relaxing in a bean bag chair as the city skyline surrounds you. They play a new film every day; six days a week; accommodating many different genres of film. \r\n\r\nDay 2 in Perth: Get your day pack ready, we are going on an adventure to Fremantle!\r\nRottnest island\r\nHead south to Fremantle; a small, artsy port city that lies just south of Perth. Fremantle is full of eccentric markets, historical buildings, and a pier that connects you to some of the cutest animals in the world.\r\n\r\nStop by the Fremantle Markets\r\nVenture to Fremantle early so you can stop at the famous Fremantle Markets to stock up on some fresh fruit for the day. Every Friday, Saturday, and Sunday this remarkable Victorian building fills with vendors selling fresh produce, delicious baked pastries and other hand-made goods. \r\n\r\nRoam the corridors of Fremantle Prison\r\nA unique thing to see just outside Perth is this UNESCO World Heritage site, the Fremantle Prison. It did not only gain notoriety for its size, but also for the fact that it was built by the convicts that it imprisoned. Fremantle Prison has been out of commission since 1991 and holds a lot of history within its walls that you can explore with a guided tour.\r\n\r\nFerry over to Rottnest Island\r\nFrom Fremantle it only takes around 30 minutes to get to Rottnest Island. You will want to catch the ferry early so that you can spend the day on Rotto, as there is a bunch of fun things to do. If you chose to skip the market, there are vendors at the harbor that you can also shop for snacks to take with you to the island. \r\n\r\nVisit the happiest animals on Earth\r\nRottnest Island is the home of the adorable quokka, a small marsupial that garnered popularity by being incredibly photogenic. Quokkas are indigenous to Rotto and can be found wandering freely around the island. Although they may look cute, keep in mind that these are wild animals and you should not touch or feed them. \r\n\r\nRelax on one of the sandy beaches\r\nAustralia is known for having picturesque beaches and Rottnest Island has some of the finest. Choose out of 63 sandy shores to sunbathe, swim or surf. If you love exploring underwater, there are many spots to snorkel or dive off the coast as well. Once the day has finished, you can either head back to Perth or stay in one of the luxurious resorts on the Island and take in the breathtaking sunset at The Basin.\r\n\r\nDay 3 in Perth: Put on your relaxing clothes, we are spending the day in Swan Valley!\r\nswan valley vineyard\r\nThe most prominent feature of Perth is Swan Valley and River which is filled with vineyards and parks that you can spend the day at.\r\n\r\nWine tour in Swan Valley\r\nIt’s no doubt that some of the best wine in Australia hail from Swan Valley. The lush weather is ideal for cultivating quality wine and you can find over 40 vineyards sprinkled around the area. Whether you choose to go on a tour or visit your favorite winery, you can be sure that you will be greeted with a glass of wine and pleasant country-side hospitality.\r\n\r\nCruise down Swan River\r\nHop on a cruise from Perth to Fremantle and enjoy the impressive views that Perth has to offer. It is a great opportunity to see Perth from a different perspective. Aside from the scenic skyline of Perth, you can also see many notable landmarks such as the Bell Tower and the restored Swan Brewery.\r\n\r\nTry your hand at Supa Golf\r\nSupa Golf is an adaptation of the traditional sport originating in Perth. The main change is the size of the ball, which makes the game a little less tedious and a lot more enjoyable. You can find many Supa Golf clubs around Swan Valley that are frequented by the locals.\r\n\r\nIf you are heading to Perth, there are so many distinctive things to do. Perth locals really appreciate spending time together so you can always find cool events around the city to hang out with other travelers or meet new friends. \r\n\r\nDid we miss anything on our list? Let us know in the comments!",
+      "city": "Perth",
+      "country": "Australia",
+      "destination_image": "globetrotter-adventures/images/destination-images/travel-home-2_qki2wf",
+      "continents": 4,
+      "slug": "3-days-in-perth-itinerary-australia",
+      "date_created": "2021-10-04T10:48:59.925Z"
+    }
+  },
+  {
+    "model": "destination.continent",
+    "pk": 2,
+    "fields": { "name": "Africa", "slug": "africa" }
+  },
+  {
+    "model": "destination.continent",
+    "pk": 3,
+    "fields": { "name": "Asia", "slug": "asia" }
+  },
+  {
+    "model": "destination.continent",
+    "pk": 4,
+    "fields": { "name": "Australia", "slug": "australia" }
+  },
+  {
+    "model": "destination.continent",
+    "pk": 5,
+    "fields": { "name": "Europe", "slug": "europe" }
+  },
+  {
+    "model": "destination.continent",
+    "pk": 6,
+    "fields": { "name": "North America", "slug": "north-america" }
+  },
+  {
+    "model": "destination.continent",
+    "pk": 7,
+    "fields": { "name": "South America", "slug": "south-america" }
+  }
+]
