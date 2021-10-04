@@ -9,7 +9,7 @@ class Destination(models.Model):
     city = models.CharField(max_length=50)
     country = models.CharField(max_length=30)
     destination_image = models.ImageField(
-        upload_to='destination')
+        upload_to='images/destination-images/')
     continents = models.ForeignKey(
         'Continent', on_delete=models.CASCADE, null=True)
     slug = models.SlugField(unique=True)

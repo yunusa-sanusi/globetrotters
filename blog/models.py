@@ -9,7 +9,7 @@ User = get_user_model()
 
 class Owner(models.Model):
     user = models.OneToOneField(User, null=True, on_delete=models.CASCADE)
-    profile_picture = models.ImageField(upload_to='profile_picture')
+    profile_picture = models.ImageField(upload_to='images/profile-pictures/')
     about = models.TextField()
     facebook_url = models.URLField(null=True)
     twitter_url = models.URLField(null=True)
@@ -30,7 +30,7 @@ class Post(models.Model):
         'Category', on_delete=models.CASCADE, blank=True)
     tags = models.ManyToManyField('Tag', blank=True)
     featured_image = models.ImageField(
-        upload_to='featured_image')
+        upload_to='images/featured-images/')
     id = models.UUIDField(default=uuid.uuid4,
                           primary_key=True, unique=True, editable=False)
     user = models.ForeignKey(Owner, null=True, on_delete=models.CASCADE)
