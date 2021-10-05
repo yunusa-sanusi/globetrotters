@@ -4,6 +4,7 @@
 <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
 <script src="{% static 'vendor/owl.carousel2/owl.carousel.min.js' %}"></script>
 <script src="{% static 'js/front.js' %}"></script>
+<script src="{% static 'js/custom.js' %}"></script>
 <script>
   // ------------------------------------------------------- //
   //   Inject SVG Sprite - 
@@ -27,18 +28,4 @@
   // while using file:// protocol
   // pls don't forget to change to your domain :)
   injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg');
-
-  const navLinks = document.querySelectorAll('.nav-link');
-  const pathName = location.pathname.substring(1)
-  const titleInput = document.querySelector('.title')
-  const slugInput = document.querySelector('.slug')
-
-  pathName === '' ? navLinks[0].classList.add('active') : ''
-  pathName === 'posts/' ? navLinks[1].classList.add('active') : ''
-  pathName === 'destinations/' ? navLinks[2].classList.add('active') : ''
-
-  titleInput.addEventListener('keyup', () => {
-    let inputText = titleInput.value.split(' ')
-    slugInput.value = inputText.join('-').toLowerCase()
-  })
 </script>

@@ -118,7 +118,7 @@ def posts(request):
 
 def post(request, slug):
     post = Post.objects.get(slug=slug)
-    latest_posts = Post.objects.all()[:3].order_by('-created_at')
+    latest_posts = Post.objects.all().order_by('-created_at')[:3]
     tags = post.tags.all()
     comments = Comment.objects.filter(post=post)
     comment_form = CommentForm()

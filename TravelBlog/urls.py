@@ -17,11 +17,13 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from blog.views import index
+from blog.views import index, login_page, logout_user
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', index, name='blog-home'),
+    path('login/', login_page, name='login'),
+    path('logout/', logout_user, name='logout'),
     path('posts/', include('blog.urls')),
     path('destinations/', include('destination.urls')),
 ]
