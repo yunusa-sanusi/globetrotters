@@ -1,6 +1,7 @@
 from django.core import paginator
 from django.core.paginator import Paginator
 from django.contrib import messages
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from destination.forms import DestinationForm, CommentForm
 from destination.models import Destination, Comment
@@ -25,7 +26,6 @@ def destinations(request):
 def single_destination(request, slug):
     single_destination = Destination.objects.get(slug=slug)
     latest_posts = Post.objects.all()[:3]
-    categories = single_destination.categories.all()
     comments = Comment.objects.filter(destination=single_destination)
     comment_form = CommentForm()
 
@@ -42,13 +42,13 @@ def single_destination(request, slug):
     context = {
         'single_dst': single_destination,
         'latest_posts': latest_posts,
-        'categories': categories,
         'comments': comments,
         'form': comment_form,
     }
     return render(request, 'destination/single-destination.html', context)
 
 
+@login_required(login_url='login')
 def add_destination(request):
     form = DestinationForm()
 
@@ -68,6 +68,7 @@ def add_destination(request):
     return render(request, 'destination/add-destination.html', context)
 
 
+@login_required(login_url='login')
 def update_destination(request, slug):
     destination = Destination.objects.get(slug=slug)
     form = DestinationForm(instance=destination)
@@ -88,6 +89,7 @@ def update_destination(request, slug):
     return render(request, 'destination/add-destination.html', context)
 
 
+@login_required(login_url='login')
 def remove_destination(request, slug):
     destination = Destination.objects.get(slug=slug)
 
