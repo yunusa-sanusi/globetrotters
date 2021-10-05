@@ -3,14 +3,13 @@ from django.core.paginator import Paginator
 from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
-from django.http import response
 from django.shortcuts import render, redirect
 
 import mailchimp_marketing as MailchimpMarketing
 from mailchimp_marketing.api_client import ApiClientError
 
-from .models import Post, Comment
-from .forms import PostForm, CommentForm
+from blog.models import Post, Comment
+from blog.forms import PostForm, CommentForm
 from destination.models import Destination, Continent
 
 
@@ -50,8 +49,11 @@ def index(request):
 
     for continent in Continent.objects.all():
         # Getting the destinations for each category
-        continents.append(
-            {'continent': continent.name, 'count': Destination.objects.filter(continents=continent).count()})
+        continents.append({
+            'continent': continent.name,
+            'count': Destination.objects.filter(continents=continent).count(),
+            'slug': continent.slug
+        })
 
     # Handling Newsletter subscription form
     if request.method == 'POST':
@@ -103,21 +105,20 @@ def logout_user(request):
 def posts(request):
     posts = Post.objects.all().order_by('-created_at')
     paginator = Paginator(posts, 4)
-    latest_posts = Post.objects.all()[:3]
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
+    latest_posts = posts[:3]
 
     context = {
-        'posts': posts,
+        'posts': page_obj,
         'latest_posts': latest_posts,
-        'page_obj': page_obj,
     }
     return render(request, 'blog/posts.html', context)
 
 
 def post(request, slug):
     post = Post.objects.get(slug=slug)
-    latest_posts = Post.objects.all()[:3]
+    latest_posts = Post.objects.all()[:3].order_by('-created_at')
     tags = post.tags.all()
     comments = Comment.objects.filter(post=post)
     comment_form = CommentForm()

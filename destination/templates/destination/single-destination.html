@@ -14,12 +14,12 @@
       <li class="list-inline-item align-middle"><img class="rounded-circle shadow-sm" src="{% static 'img/person-1.jpg' %}" alt=""
           width="40" /></li>
       <li class="list-inline-item mr-0 text-muted align-middle">By </li>
-      <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Jason Doe</a>
+      <li class="list-inline-item align-middle mr-0"><a class="font-weight-bold reset-anchor" href="#">Jane Doe</a>
       </li>
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
       <li class="list-inline-item text-muted align-middle mr-0">{{ single_dst.date_created }}</li>
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
-      <li class="list-inline-item text-muted align-middle">20 Comments</li>
+      <li class="list-inline-item text-muted align-middle">{{ comments | length }} Comments</li>
     </ul>
     <div class="text-center">
       <a href="{% url 'update-dst' single_dst.slug %}" class="btn btn-secondary edit py-2 px-4 mr-3">Edit</a>

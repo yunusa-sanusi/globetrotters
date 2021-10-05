@@ -20,7 +20,7 @@
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
       <li class="list-inline-item text-muted align-middle mr-0">{{ post.created_at }}</li>
       <li class="list-inline-item text-muted align-middle mr-0">|</li>
-      <li class="list-inline-item text-muted align-middle">20 Comments</li>
+      <li class="list-inline-item text-muted align-middle">{{ comments | length }} Comments</li>
     </ul>
     <div class="text-center">
       <a href="{% url 'update-post' post.slug %}" class="btn btn-secondary edit py-2 px-4 mr-3">Edit</a>

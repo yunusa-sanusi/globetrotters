@@ -4,28 +4,28 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect
 from destination.forms import DestinationForm, CommentForm
-from destination.models import Destination, Comment
+from destination.models import Continent, Destination, Comment
 from blog.models import Post
 
 
+latest_posts = Post.objects.all().order_by('-created_at')[:3]
+
+
 def destinations(request):
-    destinations = Destination.objects.all()
+    destinations = Destination.objects.all().order_by('-date_created')
     paginator = Paginator(destinations, 4)
-    latest_posts = Post.objects.all()[:3]
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
 
     context = {
-        'destinations': destinations,
+        'destinations': page_obj,
         'latest_posts': latest_posts,
-        'page_obj': page_obj,
     }
     return render(request, 'destination/destinations.html', context)
 
 
 def single_destination(request, slug):
     single_destination = Destination.objects.get(slug=slug)
-    latest_posts = Post.objects.all()[:3]
     comments = Comment.objects.filter(destination=single_destination)
     comment_form = CommentForm()
 
@@ -103,3 +103,18 @@ def remove_destination(request, slug):
     }
 
     return render(request, 'destination/remove-destination.html', context)
+
+
+def continent_destinations(request, slug):
+    continent = Continent.objects.get(slug=slug)
+    destinations = Destination.objects.filter(continents=continent)
+    paginator = Paginator(destinations, 4)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
+
+    context = {
+        'destinations': page_obj,
+        'continent': continent
+    }
+
+    return render(request, 'destination/continent-destinations.html', context)

@@ -132,7 +132,7 @@
       {% if continents %}
       {% for continent in continents %}
       <div class="col-lg-2 col-md-4 col-sm-6 mb-4 mb-lg-0">
-        <a class="reset-anchor d-block cat-card w-100 pt-4 pb-2" href="listing.html">
+        <a class="reset-anchor d-block cat-card w-100 pt-4 pb-2" href="{% url 'continent-dst' continent.slug %}">
           <h3 class="h5">{{ continent.continent }}</h3>
           <p class="text-muted text-small">{{ continent.count }} Destinations</p>
         </a>

@@ -7,7 +7,7 @@
   <div class="dark-overlay py-5">
     <div class="overlay-content">
       <div class="container py-5 text-white text-center">
-        <h1>Destinations</h1>
+        <h1>{{ continent.name }}</h1>
         <p>These are some of the laces I have travelled to.</p>
       </div>
     </div>
@@ -28,8 +28,7 @@
           {% for dst in destinations %}
           <div class="col-lg-6 mb-5">
             <a href="{% url 'single-dst' dst.slug %}">
-              <img class="img-fluid mb-4" src="{{ dst.imageUrl }}"
-                alt="" />
+              <img class="img-fluid mb-4" src="{{ dst.imageUrl }}" alt="" />
             </a>
             <ul class="list-inline small text-uppercase mb-0">
               <li class="list-inline-item mr-0 text-gray align-middle">By </li>
