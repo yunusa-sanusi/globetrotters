@@ -17,7 +17,7 @@
   {% if destinations %}
   <div class="destinations-slider owl-carousel owl-theme nav-center-custom owl-padding">
     {% for dst in destinations %}
-    <a class="destination d-flex align-items-end bg-center bg-cover" href="post.html"
+    <a class="destination d-flex align-items-end bg-center bg-cover" href="{{ url 'single-dst' dst.slug }}"
       style="background: url('{{ dst.imageUrl }}')">
       <div class="destination-inner w-100 text-center text-white index-forward has-transition">
         <p class="small text-uppercase mb-0">{{ dst.city }}</p>
