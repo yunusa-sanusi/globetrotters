@@ -20,7 +20,7 @@ from django.conf.urls.static import static
 from blog.views import index, login_page, logout_user
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('off-limits/', admin.site.urls),
     path('', index, name='blog-home'),
     path('login/', login_page, name='login'),
     path('logout/', logout_user, name='logout'),

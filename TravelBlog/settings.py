@@ -174,3 +174,8 @@ CLOUDINARY_URL = f'cloudinary://{CLOUDINARY_API_KEY}:{CLOUDINARY_API_SECRET}@{CL
 
 # Activate Django-Heroku.
 django_heroku.settings(locals())
+
+# Security
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
