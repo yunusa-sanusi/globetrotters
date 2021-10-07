@@ -7,7 +7,7 @@ Template was gotten from the <a href="https://bootstrapious.com/" _blank="true">
 <p>The views are function based</p>
 <p>Posts courtesy of <a href="https://abrokenbackpack.com/">A Broken Backpack</a></p>
 
-![](/home/hussain/Downloads/globetrotters-animated.gif)
+<img src='/home/hussain/Downloads/globetrotters-animated.gif' alt='app animation' />
 
 <hr>
 
